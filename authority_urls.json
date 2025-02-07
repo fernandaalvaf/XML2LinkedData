@@ -1,0 +1,14 @@
+{
+    "wikidata": {
+        "base_url": "https://www.wikidata.org/wiki/",
+        "attribute": "wikidata"
+    },
+    "viaf": {
+        "base_url": "http://viaf.org/viaf/",
+        "attribute": "viaf"
+    },
+    "gnd": {
+        "base_url": "http://d-nb.info/gnd/",
+        "attribute": "gnd"
+    }
+}
