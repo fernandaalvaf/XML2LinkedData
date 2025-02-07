@@ -29,8 +29,8 @@ Ensure you have the following dependencies installed:
 ## Installation
 1. Clone this repository:
 ```sh
-git clone <repo-link>
-cd <repo-name>
+git clone https://github.com/fernandaalvaf/XML2LinkedData.git
+cd XML2LinkedData
 ```
 2. Edit the content of the `config.yaml` file accordingly, it should be in the root directory.
 3. Ensure the required XML index file is accessible.
