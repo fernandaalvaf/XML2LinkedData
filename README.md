@@ -71,7 +71,7 @@ item_types: {'all' : 'index/names#',
           'publications' : 'pub/'}
 header: {'name' : 'Digital Edition of Fernando Pessoa',
         'target' : 'http://www.pessoadigital.pt/',
-        'contact' : 'Ulrike Henny-Krahmer <ulrike.henny-krahmer@uni-rostock.de>',
+        'contact' : 'Ulrike Henny-Krahmer <email>',
         'message' : 'Mentions in the digital edition of Fernando Pessoa',
         }
 ```
