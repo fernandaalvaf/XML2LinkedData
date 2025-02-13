@@ -52,6 +52,10 @@ def write_BEACON_file(authority, itemtype, header_data, predicates, filename_tem
     except KeyError:
         print(f"No data found for authority '{authority}'. Skipping.")
 
+# check if output folder exists and create it if it does not
+os.makedirs("output", exist_ok=True)
+os.makedirs("output/noids", exist_ok=True)
+
 
 # read settings from the config.yaml
 with open ("config.yaml", "r") as file:

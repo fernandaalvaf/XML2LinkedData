@@ -24,6 +24,8 @@ idx_lists = cfg['item_types'].keys() # defined list of indices
 if type(idx_lists) is str:
     idx_lists = list(idx_lists)
 
+# check if output folder exists and create it if it does not
+os.makedirs("output", exist_ok=True)
 
 # define namespaces
 NAMESPACES = {
