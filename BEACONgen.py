@@ -1,23 +1,23 @@
 import xml.etree.ElementTree as ET
 import yaml
 import os
-import json
 from datetime import datetime
 
 
 def BEACON_predicates(item_key, item_data, predicates, authorities):
     """
     Processes a single index item and appends formatted URLs to predicates.
+    It  builds, for example for Kant: "118559796||P6"
     
     :param item_key: Key of the current item (e.g., 'FP')
     :param item_data: Dictionary of authority IDs for the item (e.g., {'viaf': '29010497'})
     :param predicates: Dictionary to store processed URLs for each authority
     :param authorities: list of authorities
     """
-
+    predicates = {}
+    
     for authority in authorities:
-        try:            
-            
+        try:                        
             predicate = f"{item_data[authority]}||{item_key}"
             #print(predicate)
             if authority not in predicates:
@@ -66,8 +66,14 @@ os.makedirs("output/noids", exist_ok=True)
 with open ("config.yaml", "r") as file:
     cfg = yaml.safe_load(file)
 
+# read different types of indices
+idx_list = cfg['item_types'].keys() # defined list of indices
+if type(idx_list) is str:
+    idx_list = list(idx_list)
+
 # read header data settings
 header_data = cfg['header']
+
 
 # define and validate config dat
 idx_path = cfg['file_location'] # path of the xml file
@@ -77,9 +83,6 @@ if not os.path.isfile(idx_path):
 else:
     print(".xml file successfully located.")
 
-idx_lists = cfg['item_types'].keys() # defined list of indices
-if type(idx_lists) is str:
-    idx_lists = list(idx_lists)
 
 # parse the .xml file
 print("parsing...")
@@ -98,7 +101,7 @@ div = root.findall(".//*[@xml:id='Indices']", ns)[0]
 
 # Iterating through indices
 
-for itemtype in idx_lists:
+for itemtype in idx_list:
     
     # Locate all parent elements (e.g., <list>, <listPerson>, etc.) that match the type
     matching_elements = div.findall(f".//*[@type='{itemtype}']", ns)
@@ -124,6 +127,17 @@ for itemtype in idx_lists:
         ids = item.findall("tei:idno",ns)
         #print(ids)
 
+
+        """
+        The following empty dictionary will be used to collect all the relevant data we extracted.
+        For example, for Kant:
+        indexitems = {(...)
+                        'P6':{'wikidata':'Q9312',
+                             'gnd':'118559796',
+                             'viaf':'82088490'
+                            }
+                    (...)}
+        """
         indexitems[item_id] = {}
 
         if len(ids) == 0:
