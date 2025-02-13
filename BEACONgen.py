@@ -38,6 +38,11 @@ def write_BEACON_file(authority, itemtype, header_data, predicates, filename_tem
     """
     filename = filename_template.format(authority=authority,itemtype=itemtype)
     name = header_data['name']
+    try:
+        prefix = cfg['authority_urls'][authority]
+    except:
+        prefix = "url-not-given"
+        print("Warning: BEACON malformed")
     target = header_data['target'] + cfg['item_types'][itemtype]
     contact= header_data['contact']
     message = header_data['message']
@@ -45,7 +50,7 @@ def write_BEACON_file(authority, itemtype, header_data, predicates, filename_tem
 
     try:
         with open(filename, "w+", encoding="utf-8") as f:
-            f.write(f"#FORMAT: BEACON\n#NAME: {name}\n#TARGET: {target}\n#CONTACT: {contact}\n#MESSAGE: {message}\n#RELATION: http://www.w3.org/2002/07/owl#sameAs\n#TIMESTAMP:{timestamp}\n\n")
+            f.write(f"#FORMAT: BEACON\n#NAME: {name}\n#PREFIX: {prefix}\n#TARGET: {target}\n#CONTACT: {contact}\n#MESSAGE: {message}\n#RELATION: http://www.w3.org/2002/07/owl#sameAs\n#TIMESTAMP:{timestamp}\n\n")
             for item in predicates[authority]:
                 f.write(f"{item}\n")
             print(f"{filename} written successfully.")

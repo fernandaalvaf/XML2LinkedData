@@ -7,3 +7,7 @@ header: {'name' : 'Digital Edition of Fernando Pessoa',
         'contact' : 'Ulrike Henny-Krahmer <email>',
         'message' : 'Mentions in the digital edition of Fernando Pessoa',
         }
+authority_urls: {'wikidata': 'https://www.wikidata.org/wiki/',
+                'viaf': 'http://viaf.org/viaf/',
+                'gnd': 'http://d-nb.info/gnd/'
+                }
