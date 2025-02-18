@@ -1,6 +1,8 @@
 # BEACON & RDF Generator
 
-This repository contains two Python scripts, `BEACONgen.py` and `RDFgen.py`, designed to process XML index data and generate BEACON and RDF output files for structured data representation.
+XML2LinkedData is a Python-based tool for generating BEACON and RDF link dumps from structured data sources.
+
+This repository contains two Python scripts, `BEACONgen.py` and `RDFgen.py`, designed to process XML index data and generate BEACON and RDF output files for structured data representation. The repository also contains a jupyter notebook `BEACONgenNotebook.ipynb` with a guided overview of the script.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -47,15 +49,6 @@ This script:
 - Generates BEACON files for each authority type.
 - Logs missing authority references.
 
-### RDF Generator
-To generate RDF data, run:
-```sh
-python RDFgen.py
-```
-This script:
-- Parses the XML index data.
-- Converts it into RDF format.
-- Outputs the data in both Turtle (`.ttl`) and RDF/XML (`.rdf`) formats.
 
 ## Configuration
 Modify `config.yaml` to specify:
@@ -64,22 +57,56 @@ Modify `config.yaml` to specify:
 - Header information (`header`)
 
 Example `config.yaml`:
+
 ```yaml
-file_location: "indices.xml"
-item_types: {'all' : 'index/names#',
-          'periodical' : 'index/periodicals#',
-          'publications' : 'pub/'}
-header: {'name' : 'Digital Edition of Fernando Pessoa',
-        'target' : 'http://www.pessoadigital.pt/',
+file_location: "Data/indices.xml"
+
+register_types: {'names': {
+                    'element': 'listPerson',
+                    'attribute_type': 'type',
+                    'attribute_value': 'all',
+                    'target': 'http://www.pessoadigital.pt/index/names#'},
+                'periodicals': {
+                    'element': 'list',
+                    'attribute_type': 'type',
+                    'attribute_value': 'periodical',
+                    'target':'http://www.pessoadigital.pt/index/periodicals#'},
+                'publications': {
+                    'element': 'list',
+                    'attribute_type': 'type',
+                    'attribute_value': 'publications',
+                    'target': 'http://www.pessoadigital.pt/pub/'}
+                    }
+
+header_data: {'name' : 'Digital Edition of Fernando Pessoa',
         'contact' : 'Ulrike Henny-Krahmer <email>',
         'message' : 'Mentions in the digital edition of Fernando Pessoa',
         }
+
+authority_files: {'wikidata': 'https://www.wikidata.org/wiki/',
+                'viaf': 'http://viaf.org/viaf/',
+                'gnd': 'http://d-nb.info/gnd/'
+                }
+
+namespaces: {"tei":"http://www.tei-c.org/ns/1.0",
+            "xml":"http://www.w3.org/XML/1998/namespace"
+            }
+
 ```
+
+**File locations:** Defines the path of the XML file containing the project index data.
+
+**Register types:** Specifies element names and attributes where the index is stored in the tei file, for example `<list type="places">`. If there is no specified attribute, the value of `attribute_type` and `attribute_value` should be `None`, for example in the case of: `<listPlaces>`.
+
+**Header data:** Contains the optional metadata for the generated BEACON file. If it should be empty, input an empty string: `''`.
+
+**Authority files:** Defines the external sources for entity validation (e.g., Wikidata, VIAF, GND).
+
+**Namespaces:** Defines XML namespaces for parsing TEI-compliant files. In most cases, should not be altered.
 
 ## Output
 Generated files are stored in the `output/` directory:
 - **BEACONgen.py**: `output/BEACON_{itemtype}_{authority}.txt`
-- **RDFgen.py**: `output/output.ttl`, `output/output.rdf`
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.

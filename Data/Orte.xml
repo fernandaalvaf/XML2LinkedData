@@ -1,0 +1,2918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
+    telota:doctype="ortsregister" xml:lang="de" xml:id="prov1154">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Register der Orte</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/1127560115">
+                        <surname>Huch</surname>
+                        <forename>Gaby</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName ref="http://d-nb.info/gnd/1121508855">
+                        <surname>Neuber</surname>
+                        <forename>Frederike</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName ref="http://d-nb.info/gnd/1034877364">
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Technische Umsetzung</resp>
+                    <orgName>TELOTA IT/DH, Berlin-Brandenburgische Akademie der
+                        Wissenschaften</orgName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
+                    Adelsfamilie Lehndorff vom 18. bis in das 20. Jahrhundert. Bearbeitet von Gaby
+                    Huch. Berlin-Brandenburgische Akademie der Wissenschaften 2019. URL:
+                    https://lebenswelten-lehndorff.bbaw.de </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+                    <address>
+                        <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                        <country>Germany</country>
+                    </address>
+                </publisher>
+                <pubPlace>Berlin</pubPlace>
+                <date type="publication">2020-05-25</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        <p>Distributed under the Creative Commons Attribution 4.0</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb"
+                        >https://lebenswelten-lehndorff.bbaw.de/register/index.xql</idno>
+                </idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="ed_xdm_3bw_glb">
+                    <placeName type="reg">Kussen</placeName>
+                    <idno type="uri">https://www.geonames.org/473947/vesnovo.html</idno>
+                </place>
+                <place xml:id="ed_ydb_jbw_glb">
+                    <placeName type="reg">Neuweide</placeName>
+                    <idno type="uri">https://www.geonames.org/565810/dobrovol-sk.html</idno>
+                </place>
+                <place xml:id="ed_icq_ggg_h1b">
+                    <placeName type="reg">Aachen</placeName>
+                    <idno type="uri">http://www.geonames.org/3247449</idno>
+                </place>
+                <place xml:id="ed_nsr_sss_d2b">
+                    <placeName type="reg">Allenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/564915/druzhba.html</idno>
+                </place>
+                <place xml:id="ed_qff_bxl_2y">
+                    <placeName type="reg">Allenstein</placeName>
+                    <idno type="uri">http://www.geonames.org/763166</idno>
+                </place>
+                <place xml:id="ed_k5k_svj_tcb">
+                    <placeName type="reg">Alsheim am Rhein</placeName>
+                    <idno type="uri">http://www.geonames.org/2958126</idno>
+                </place>
+                <place xml:id="ed_flb_vtn_my">
+                    <placeName type="reg">Altenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2957773</idno>
+                </place>
+                <place xml:id="ed_hn3_ml3_tcb">
+                    <placeName type="reg">Altenburg, Burggrafschaft</placeName>
+                </place>
+                <place xml:id="ed_glz_32r_rdb">
+                    <placeName type="reg">Altenplatow</placeName>
+                    <idno type="uri">http://www.geonames.org/2957518/altenplathow.html</idno>
+                </place>
+                <place xml:id="ed_vs5_n51_1bb">
+                    <placeName type="reg">Alt Madlitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2957017/alt-madlitz.html</idno>
+                </place>
+                <place xml:id="ed_urn_ktp_tdb">
+                    <placeName type="reg">Altona</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/10299498/centrum-hotel-commerz-am-bahnhof-altona.html</idno>
+                </place>
+                <place xml:id="ed_x4d_jc2_gy">
+                    <placeName type="reg">Amalienruh</placeName>
+                    <idno type="uri">http://www.geonames.org/757234</idno>
+                </place>
+                <place xml:id="ed_pnr_xrg_hy">
+                    <placeName type="reg">Amiens</placeName>
+                    <idno type="uri">http://www.geonames.org/3037854</idno>
+                </place>
+                <place xml:id="ed_p12_4bn_zcb">
+                    <placeName type="reg">Amsterdam</placeName>
+                    <idno type="uri">http://www.geonames.org/2759794</idno>
+                </place>
+                <place xml:id="ed_jng_zqk_wcb">
+                    <placeName type="reg">Angerapp</placeName>
+                    <idno type="uri">http://www.geonames.org/756050</idno>
+                </place>
+                <place xml:id="ed_hz1_4wl_2y">
+                    <placeName type="reg">Angerburg</placeName>
+                    <idno type="uri">http://www.geonames.org/756048</idno>
+                </place>
+                <place xml:id="ed_w2l_vl3_tcb">
+                    <placeName type="reg">Anhalt-Dessau, Fürstentum</placeName>
+                </place>
+                <place xml:id="ed_iyk_gdz_bz">
+                    <placeName type="reg">Anklam</placeName>
+                    <idno type="uri">http://www.geonames.org/2956018</idno>
+                </place>
+                <place xml:id="ed_f3h_mhj_w2b">
+                    <placeName type="reg">Ansbach</placeName>
+                    <idno type="uri">http://www.geonames.org/2955936/ansbach.html</idno>
+                </place>
+                <place xml:id="ed_pdn_lbn_zcb">
+                    <placeName type="reg">Antwerpen</placeName>
+                    <idno type="uri">http://www.geonames.org/2803138</idno>
+                </place>
+                <place xml:id="ed_ar3_djz_g2b">
+                    <placeName type="reg">Arendsee</placeName>
+                    <idno type="uri">http://www.geonames.org/6551248/arendsee-altmark.html</idno>
+                </place>
+                <place xml:id="ed_i4y_jgx_f2b">
+                    <placeName type="reg">Arklitten</placeName>
+                    <idno type="uri">http://gov.genealogy.net/ARKTENKO04QH</idno>
+                </place>
+                <place xml:id="ed_nlz_n3l_ddb">
+                    <placeName type="reg">Arnau</placeName>
+                    <idno type="uri">http://www.geonames.org/3089986/ornowo.html</idno>
+                </place>
+                <place xml:id="ed_wqy_ydq_tdb">
+                    <placeName type="reg">Arnsdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/8379166/milcz.html</idno>
+                </place>
+                <place xml:id="ed_qfr_ytb_tcb">
+                    <placeName type="reg">Arys</placeName>
+                    <idno type="uri">http://www.geonames.org/763028</idno>
+                </place>
+                <place xml:id="ed_rbt_cmk_wcb">
+                    <placeName type="reg">Aweyden</placeName>
+                    <idno type="uri">http://www.geonames.org/764070</idno>
+                </place>
+                <place xml:id="ed_epd_ct2_cy">
+                    <placeName type="reg">Babelsberg</placeName>
+                    <idno type="uri">http://www.geonames.org/2953775</idno>
+                </place>
+                <place xml:id="ed_v3m_3zg_ldb">
+                    <placeName type="reg">Babin</placeName>
+                    <idno type="uri">http://www.geonames.org/776559/babin.html</idno>
+                </place>
+                <place xml:id="ed_mqq_k4b_1bb">
+                    <placeName type="reg">Bad Doberan</placeName>
+                    <placeName type="alt">Doberan</placeName>
+                    <idno type="uri">http://www.geonames.org/2953528/bad-doberan.html</idno>
+                </place>
+                <place xml:id="ed_tnj_fcd_gy">
+                    <placeName type="reg">Bad Ems</placeName>
+                    <placeName type="alt">Ems</placeName>
+                    <idno type="uri">http://www.geonames.org/2953507</idno>
+                </place>
+                <place xml:id="ed_lng_r2v_22b">
+                    <placeName type="reg">Baden</placeName>
+                    <idno type="uri">http://www.geonames.org/2953504/baden-baden.html</idno>
+                </place>
+                <place xml:id="ed_avy_p42_cy">
+                    <placeName type="reg">Bad Gastein</placeName>
+                    <placeName type="alt">Gastein</placeName>
+                    <idno type="uri">http://www.geonames.org/2782058</idno>
+                </place>
+                <place xml:id="ed_abk_32m_xcb">
+                    <placeName type="reg">Badingen</placeName>
+                    <idno type="uri">http://www.geonames.org/2953427</idno>
+                </place>
+                <place xml:id="ed_rpm_3bv_22b">
+                    <placeName type="reg">Bad Kissingen</placeName>
+                    <placeName type="alt">Kissingen</placeName>
+                    <idno type="uri">http://www.geonames.org/2953424/bad-kissingen.html</idno>
+                </place>
+                <place xml:id="ed_mqq_3rw_f2b">
+                    <placeName type="reg">Bad Landeck</placeName>
+                    <placeName type="alt">Landeck</placeName>
+                    <idno type="uri">http://www.geonames.org/3094016/ladek-zdroj.html</idno>
+                </place>
+                <place xml:id="ed_ovy_w1b_tcb">
+                    <placeName type="reg">Bad Pyrmont</placeName>
+                    <placeName type="alt">Pyrmont</placeName>
+                    <idno type="uri">http://www.geonames.org/2953379</idno>
+                </place>
+                <place xml:id="ed_agn_hhl_wcb">
+                    <placeName type="reg">Bajoren</placeName>
+                    <idno type="uri">http://www.geonames.org/776479</idno>
+                </place>
+                <place xml:id="ed_ryz_22x_f2b">
+                    <placeName type="reg">Bangschin</placeName>
+                    <idno type="uri">http://www.geonames.org/3103720/bedzieszyn.html</idno>
+                </place>
+                <place xml:id="ed_y5w_wtp_dz">
+                    <placeName type="reg">Barten</placeName>
+                    <idno type="uri">http://www.geonames.org/776393</idno>
+                </place>
+                <place xml:id="ed_l4n_vxc_py">
+                    <placeName type="reg">Bartenstein</placeName>
+                    <idno type="uri">http://www.geonames.org/776337</idno>
+                </place>
+                <place xml:id="ed_t23_2wp_f2b">
+                    <placeName type="reg">Barth</placeName>
+                    <idno type="uri">http://www.geonames.org/2952372/barth.html</idno>
+                </place>
+                <place xml:id="ed_yx2_b3g_hy">
+                    <placeName type="reg">Bärwinkel</placeName>
+                    <idno type="uri">http://www.geonames.org/2952321</idno>
+                </place>
+                <place xml:id="ed_yps_bwn_my">
+                    <placeName type="reg">Basedow</placeName>
+                    <idno type="uri">http://www.geonames.org/2952295</idno>
+                </place>
+                <place xml:id="ed_hng_q13_tdb">
+                    <placeName type="reg">Bautzen</placeName>
+                    <idno type="uri">http://www.geonames.org/2951881/bautzen.html</idno>
+                </place>
+                <place xml:id="ed_afs_zkx_f2b">
+                    <placeName type="reg">Bayreuth</placeName>
+                    <idno type="uri">http://www.geonames.org/2951825/bayreuth.html</idno>
+                </place>
+                <place xml:id="ed_zh5_f2n_4y">
+                    <placeName type="reg">Belgien</placeName>
+                </place>
+                <place xml:id="ed_css_zvg_cdb">
+                    <placeName type="reg">Bellevue</placeName>
+                    <idno type="uri">http://www.geonames.org/8334620/hansaviertel.html</idno>
+                </place>
+                <place xml:id="ed_xkd_yrn_zdb">
+                    <placeName type="reg">Bellschwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3103888/baloszyce.html</idno>
+                </place>
+                <place xml:id="ed_m2s_5kp_tdb">
+                    <placeName type="reg">Bentschkowo</placeName>
+                    <note>Polen</note>
+                </place>
+                <place xml:id="ed_ol1_nv5_zdb">
+                    <placeName type="reg">Berchtesgaden</placeName>
+                    <idno type="uri">http://www.geonames.org/2950881/berchtesgaden.html</idno>
+                </place>
+                <place xml:id="ed_xrv_gwb_by">
+                    <placeName type="reg">Berlin</placeName>
+                    <idno type="uri">http://www.geonames.org/757234</idno>
+                </place>
+                <place xml:id="ed_tzk_cgs_d2b">
+                    <placeName type="reg">Bethlehem</placeName>
+                    <idno type="uri">http://www.geonames.org/284315/bethlehem.html</idno>
+                </place>
+                <place xml:id="ed_jh1_1h5_jz">
+                    <placeName type="reg">Bettlern</placeName>
+                    <idno type="uri">http://www.geonames.org/3068403</idno>
+                </place>
+                <place xml:id="ed_iwq_czh_tbb">
+                    <placeName type="reg">Beydritten</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/BEYTENKO04GS</idno>
+                </place>
+                <place xml:id="ed_wkm_lx5_sy">
+                    <placeName type="reg">Beynuhnen</placeName>
+                    <placeName type="alt">Beinuhnen</placeName>
+                    <idno type="uri">http://www.geonames.org/8629372</idno>
+                </place>
+                <place xml:id="ed_fzv_knx_f2b">
+                    <placeName type="reg">Bialla</placeName>
+                    <idno type="uri">http://www.geonames.org/776178/biala-piska.html</idno>
+                </place>
+                <place xml:id="ed_qrj_lkp_tdb">
+                    <placeName type="reg">Białystok</placeName>
+                    <idno type="uri">http://www.geonames.org/776069/bialystok.html</idno>
+                </place>
+                <place xml:id="ed_swr_mj2_2cb">
+                    <placeName type="reg">Bingen</placeName>
+                    <idno type="uri">http://www.geonames.org/2948825</idno>
+                </place>
+                <place xml:id="ed_ry4_bqh_my">
+                    <placeName type="reg">Birkenfeld</placeName>
+                    <idno type="uri">http://www.geonames.org/3102364</idno>
+                </place>
+                <place xml:id="ed_wfl_hkv_mbb">
+                    <placeName type="reg">Bischburg</placeName>
+                    <placeName type="alt">Bischofsburg</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/object_190245</idno>
+                </place>
+                <place xml:id="ed_sbw_gmp_tdb">
+                    <placeName type="reg">Bisovistok</placeName>
+                    <note>Polen</note>
+                </place>
+                <place xml:id="ed_asn_jyz_ncb">
+                    <placeName type="reg">Blaustein</placeName>
+                    <idno type="uri">http://www.geonames.org/3209450</idno>
+                </place>
+                <place xml:id="ed_jjf_hrp_tdb">
+                    <placeName type="reg">Bledau</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/BLEDAUKO04GW</idno>
+                </place>
+                <place xml:id="ed_kwd_gkm_wcb">
+                    <placeName type="reg">Bludau</placeName>
+                    <idno type="uri">http://www.geonames.org/825259</idno>
+                </place>
+                <place xml:id="ed_ads_ctg_gcb">
+                    <placeName type="reg">Böchingen</placeName>
+                    <idno type="uri">http://www.geonames.org/2947424</idno>
+                </place>
+                <place xml:id="ed_l55_lzt_2cb">
+                    <placeName type="reg">Bonn</placeName>
+                    <idno type="uri">http://www.geonames.org/2946447</idno>
+                </place>
+                <place xml:id="ed_rw1_y5t_ncb">
+                    <placeName type="reg">Borken</placeName>
+                    <idno type="uri">https://www.geonames.org/767435/kruklanki.html</idno>
+                    <note>Forstamt, Amtsbezirk Kruglanken</note>
+                </place>
+                <place xml:id="ed_ed1_s2y_bz">
+                    <placeName type="reg">Bötzow</placeName>
+                    <idno type="uri">http://www.geonames.org/2945737</idno>
+                </place>
+                <place xml:id="ed_xhs_sdm_zcb">
+                    <placeName type="reg">Boulay</placeName>
+                    <idno type="uri">http://www.geonames.org/3031182</idno>
+                </place>
+                <place xml:id="ed_nwg_ygt_c2b">
+                    <placeName type="reg">Brabant</placeName>
+                </place>
+                <place xml:id="ed_xjc_ttl_cz">
+                    <placeName type="reg">Brandenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2945356</idno>
+                </place>
+                <place xml:id="ed_ang_2yz_ncb">
+                    <placeName type="reg">Brasnicken</placeName>
+                    <idno type="uri">http://gov.genealogy.net/object_327357</idno>
+                </place>
+                <place xml:id="ed_pgb_5wy_bcb">
+                    <placeName type="reg">Braunsberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3102677</idno>
+                </place>
+                <place xml:id="ed_cky_bxp_rdb">
+                    <placeName type="reg">Braunschweig</placeName>
+                    <idno type="uri">http://www.geonames.org/2945024/braunschweig.html</idno>
+                </place>
+                <place xml:id="ed_lj2_2rs_d2b">
+                    <placeName type="reg">Bregden</placeName>
+                    <idno type="uri">http://www.geonames.org/3233915/vavilovo.html</idno>
+                </place>
+                <place xml:id="ed_kmv_hs1_dy">
+                    <placeName xmlns:tei="http://www.tei-c.org/ns/1.0" type="reg">Bremen</placeName>
+                    <idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="uri"
+                        >http://www.geonames.org/2944388</idno>
+                </place>
+                <place xml:id="ed_iw5_fxl_2y">
+                    <placeName type="reg">Breslau</placeName>
+                    <idno type="uri">http://www.geonames.org/6515112</idno>
+                </place>
+                <place xml:id="ed_udz_fwn_zdb">
+                    <placeName type="reg">Brest</placeName>
+                    <idno type="uri">http://www.geonames.org/629634/brest.html</idno>
+                </place>
+                <place xml:id="ed_bp5_xch_ldb">
+                    <placeName type="reg">Bromberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3102014/bydgoszcz.html</idno>
+                </place>
+                <place xml:id="ed_adq_2ns_d2b">
+                    <placeName type="reg">Bronikowen</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/9955607/mercure-mrongovia-resort-%26-spa.html</idno>
+                </place>
+                <place xml:id="ed_act_42b_ycb">
+                    <placeName type="reg">Brosowken</placeName>
+                    <idno type="uri">https://www.geonames.org/775055/brzozowko.html</idno>
+                </place>
+                <place xml:id="ed_fv2_b1x_clb">
+                    <placeName type="reg">Willkamm</placeName>
+                    <idno type="uri">https://www.geonames.org/755903/wielewo.html</idno>
+                </place>
+                <place xml:id="ed_emj_l1x_clb">
+                    <placeName type="reg">Penken</placeName>
+                    <idno type="uri"> http://gov.genealogy.net/PENKENKO04GL</idno>
+                </place>
+                <place xml:id="ed_q2v_t3x_clb">
+                    <placeName type="reg">Groß Strengeln</placeName>
+                    <idno type="uri">https://www.geonames.org/758082/stregiel.html</idno>
+                </place>
+                <place xml:id="ed_ixc_hlg_ccb">
+                    <placeName type="reg">Brunn</placeName>
+                    <idno type="uri">http://www.geonames.org/2943204</idno>
+                </place>
+                <place xml:id="ed_k21_lbn_zcb">
+                    <placeName type="reg">Brüssel</placeName>
+                    <idno type="uri">http://www.geonames.org/2800866</idno>
+                </place>
+                <place xml:id="ed_fxh_w1h_1cb">
+                    <placeName type="reg">Budapest</placeName>
+                    <idno type="uri">http://www.geonames.org/3054643</idno>
+                </place>
+                <place xml:id="ed_frm_cwd_py">
+                    <placeName type="reg">Buddern</placeName>
+                    <idno type="uri">http://www.geonames.org/774956/budry.html</idno>
+                </place>
+                <place xml:id="ed_clv_11k_gy">
+                    <placeName type="reg">Buddern-Wiesengrün</placeName>
+                    <placeName type="alt">Buddern</placeName>
+                    <idno type="uri">http://www.geonames.org/774956</idno>
+                </place>
+                <place xml:id="ed_rkz_4hl_ddb">
+                    <placeName type="reg">Budschen</placeName>
+                    <idno type="uri">https://www.geonames.org/774878/budzewo.html</idno>
+                </place>
+                <place xml:id="ed_abz_1dq_tdb">
+                    <placeName type="reg">Bunzlau</placeName>
+                    <idno type="uri">http://www.geonames.org/3102987/boleslawiec.html</idno>
+                </place>
+                <place xml:id="ed_c3h_d3h_2z">
+                    <placeName type="reg">Burg</placeName>
+                    <idno type="uri">http://www.geonames.org/2941501</idno>
+                </place>
+                <place xml:id="ed_r1n_rqs_kfb">
+                    <placeName type="reg">Canditten</placeName>
+                    <idno type="uri">http://www.geonames.org/769590/kandyty.html</idno>
+                </place>
+                <place xml:id="ed_ech_j2j_w2b">
+                    <placeName type="reg">Capustigall</placeName>
+                    <idno type="uri">http://www.geonames.org/11288682/pribrezhnyy.html</idno>
+                </place>
+                <place xml:id="ed_vg3_ywj_gy">
+                    <placeName type="reg">Carlshof </placeName>
+                    <idno type="uri">http://www.geonames.org/769504</idno>
+                </place>
+                <place xml:id="ed_ykj_s2b_1bb">
+                    <placeName type="reg">Charlottenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2940187</idno>
+                </place>
+                <place xml:id="ed_lkv_433_1fb">
+                    <placeName type="reg">Charlottenthal</placeName>
+                    <note>Amt Brandenburg</note>
+                </place>
+                <place xml:id="ed_zwl_qvk_gbb">
+                    <placeName type="reg">Chemnitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2940132</idno>
+                </place>
+                <place xml:id="ed_ih5_3mp_tdb">
+                    <placeName type="reg">Choroszcz</placeName>
+                    <idno type="uri">http://www.geonames.org/774393/choroszcz.html</idno>
+                </place>
+                <place xml:id="ed_nkl_vmp_tdb">
+                    <placeName type="reg">Chorzelen</placeName>
+                    <note>Kloster</note>
+                </place>
+                <place xml:id="ed_bhf_zhj_w2b">
+                    <placeName type="reg">Colmar</placeName>
+                    <idno type="uri">http://www.geonames.org/3024297/colmar.html</idno>
+                </place>
+                <place xml:id="ed_sbg_dgg_cdb">
+                    <placeName type="reg">Commercy</placeName>
+                    <idno type="uri">http://www.geonames.org/3024086/commercy.html</idno>
+                </place>
+                <place xml:id="ed_c3z_fbq_tdb">
+                    <placeName type="reg">Compiègne</placeName>
+                    <idno type="uri">http://www.geonames.org/3024066/compiegne.html</idno>
+                </place>
+                <place xml:id="ed_lfy_1gv_sdb">
+                    <placeName type="reg">Conow</placeName>
+                    <idno type="uri">http://www.geonames.org/2939876/conow.html</idno>
+                </place>
+                <place xml:id="ed_y2c_lvd_ycb">
+                    <placeName type="reg">Crossen</placeName>
+                    <idno type="uri">http://www.geonames.org/3094633</idno>
+                </place>
+                <place xml:id="ed_zt4_nt3_ycb">
+                    <placeName type="reg">Czechoczin</placeName>
+                    <idno type="uri">http://www.geonames.org/3101425</idno>
+                </place>
+                <place xml:id="ed_lx1_3n5_zdb">
+                    <placeName type="reg">Dahlem</placeName>
+                    <idno type="uri">http://www.geonames.org/2939440/dahlem.html</idno>
+                </place>
+                <place xml:id="ed_zls_cmg_hy">
+                    <placeName type="reg">Dahlwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2939391</idno>
+                </place>
+                <place xml:id="ed_vwz_xtp_tdb">
+                    <placeName type="reg">Dänemark</placeName>
+                </place>
+                <place xml:id="ed_uyl_j3c_gy">
+                    <placeName type="reg">Danzig</placeName>
+                    <idno type="uri">hhttp://www.geonames.org/3099434</idno>
+                </place>
+                <place xml:id="ed_omg_5xl_5y">
+                    <placeName type="reg">Darkehmen</placeName>
+                    <idno type="uri">http://www.geonames.org/513406</idno>
+                </place>
+                <place xml:id="ed_jvp_vfn_scb">
+                    <placeName type="reg">Darmstadt</placeName>
+                    <idno type="uri">http://www.geonames.org/2938913</idno>
+                </place>
+                <place xml:id="ed_vnl_sgg_h1b">
+                    <placeName type="reg">Den Haag</placeName>
+                    <idno type="uri">http://www.geonames.org/2747373/the-hague.html</idno>
+                </place>
+                <place xml:id="ed_xf5_pb4_my">
+                    <placeName type="reg">Dessau</placeName>
+                    <idno type="uri">http://www.geonames.org/2937959</idno>
+                </place>
+                <place xml:id="ed_l4h_yq1_my">
+                    <placeName type="reg">Diepensee</placeName>
+                    <idno type="uri">http://www.geonames.org/2937328</idno>
+                </place>
+                <place xml:id="ed_b4f_52f_4y">
+                    <placeName type="reg">Dirschau</placeName>
+                    <idno type="uri">http://www.geonames.org/3083426</idno>
+                </place>
+                <place xml:id="ed_x5f_r5t_sdb">
+                    <placeName type="reg">Döbeln</placeName>
+                    <idno type="uri">http://www.geonames.org/2936658/doebeln.html</idno>
+                </place>
+                <place xml:id="ed_bxm_sxb_5bb">
+                    <placeName type="reg">Doben</placeName>
+                    <idno type="uri">http://www.geonames.org/773178</idno>
+                </place>
+                <place xml:id="ed_hsd_glp_tdb">
+                    <placeName type="reg">Dobrzyniewo</placeName>
+                    <idno type="uri">http://www.geonames.org/773100/dobrzyniewo-duze.html</idno>
+                </place>
+                <place xml:id="ed_d4c_2d3_mfb">
+                    <placeName type="reg">Doliewen</placeName>
+                    <idno type="uri">http://www.geonames.org/773068/doliwy.html</idno>
+                </place>
+                <place xml:id="ed_k3j_dhv_h2b">
+                    <placeName type="reg">Dombke</placeName>
+                    <idno type="uri">http://www.geonames.org/3100865/dabki.html</idno>
+                </place>
+                <place xml:id="ed_lrv_kgj_f3b">
+                    <placeName type="reg">Dombrowken</placeName>
+                    <idno type="uri">https://www.geonames.org/773521/dabrowka.html</idno>
+                </place>
+                <place xml:id="ed_uvp_xss_d2b">
+                    <placeName type="reg">Domnau</placeName>
+                    <idno type="uri">http://www.geonames.org/565384/domnovo.html</idno>
+                </place>
+                <place xml:id="ed_mzz_cff_4y">
+                    <placeName type="reg">Dönhoffstädt</placeName>
+                    <idno type="uri">http://www.geonames.org/772963</idno>
+                </place>
+                <place xml:id="ed_rf5_lc5_zdb">
+                    <placeName type="reg">Doorn</placeName>
+                    <idno type="uri">http://www.geonames.org/2753472/huis-doorn.html</idno>
+                </place>
+                <place xml:id="ed_h35_jqh_my">
+                    <placeName type="reg">Drengfurth</placeName>
+                    <idno type="uri">http://www.geonames.org/758467</idno>
+                </place>
+                <place xml:id="ed_dz5_2kn_4y">
+                    <placeName type="reg">Dresden</placeName>
+                    <idno type="uri">http://www.geonames.org/2935022</idno>
+                </place>
+                <place xml:id="ed_e1j_nh2_b2b">
+                    <placeName type="reg">Drosdowen</placeName>
+                    <idno type="uri">http://www.geonames.org/772948/drozdowo.html</idno>
+                </place>
+                <place xml:id="ed_dts_xmp_tdb">
+                    <placeName type="reg">Drygallen</placeName>
+                    <idno type="uri">http://www.geonames.org/772921/drygaly.html</idno>
+                </place>
+                <place xml:id="ed_r5z_xsz_bcb">
+                    <placeName type="reg">Dubieck</placeName>
+                    <idno type="uri">http://www.geonames.org/772897</idno>
+                </place>
+                <place xml:id="ed_dff_cbn_zcb">
+                    <placeName type="reg">Düsseldorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2934246</idno>
+                </place>
+                <place xml:id="ed_rp3_czd_qz">
+                    <placeName type="reg">Eberswalde</placeName>
+                    <idno type="uri">http://www.geonames.org/2933882/eberswalde.html</idno>
+                </place>
+                <place xml:id="ed_d13_xgj_w2b">
+                    <placeName type="reg">Eger</placeName>
+                    <idno type="uri">http://www.geonames.org/721239/eger.html</idno>
+                </place>
+                <place xml:id="ed_w4k_bsw_gkb">
+                    <placeName type="reg">Eichmedien</placeName>
+                    <idno type="uri">https://www.geonames.org/764149/nakomiady.html</idno>
+                </place>
+                <place xml:id="ed_ed2_4r1_my">
+                    <placeName type="reg">Elbing</placeName>
+                    <idno type="uri">http://www.geonames.org/3099759</idno>
+                </place>
+                <place xml:id="ed_rbc_xhj_nz">
+                    <placeName type="reg">Elkinehlen</placeName>
+                    <idno type="uri">http://www.geonames.org/2609904</idno>
+                </place>
+                <place xml:id="ed_epz_y2c_gy">
+                    <placeName type="reg">Engelstein</placeName>
+                    <idno type="uri">http://www.geonames.org/756067</idno>
+                </place>
+                <place xml:id="ed_jxm_5vf_4y">
+                    <placeName type="reg">England</placeName>
+                    <placeName type="alt">Vereinigtes Königreich von Großbritannien und
+                        Nordirland</placeName>
+                </place>
+                <place xml:id="ed_r4l_hl3_tcb">
+                    <placeName type="reg">Erfurt</placeName>
+                    <idno type="uri">http://www.geonames.org/6549746</idno>
+                </place>
+                <place xml:id="ed_vwc_chj_w2b">
+                    <placeName type="reg">Erlangen</placeName>
+                    <idno type="uri">http://www.geonames.org/2929567/erlangen.html</idno>
+                </place>
+                <place xml:id="ed_zgq_zjv_mbb">
+                    <placeName type="reg">Ermland</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/858791/wojewodztwo-warminsko-mazurskie.html</idno>
+                </place>
+                <place xml:id="ed_lwx_4jr_bdb">
+                    <placeName type="reg">Evreux</placeName>
+                    <idno type="uri">http://www.geonames.org/3019265</idno>
+                </place>
+                <place xml:id="ed_cs3_zqv_g2b">
+                    <placeName type="reg">Eydtkuhnen</placeName>
+                    <idno type="uri">http://www.geonames.org/568533/chernyshevskoye.html</idno>
+                </place>
+                <place xml:id="ed_wzh_wmq_f2b">
+                    <placeName type="reg">Faulenort</placeName>
+                    <idno type="uri">http://www.geonames.org/2927694/faulenort.html</idno>
+                </place>
+                <place xml:id="ed_tn4_fy5_h2b">
+                    <placeName type="reg">Faulenrost</placeName>
+                    <idno type="uri">http://www.geonames.org/2927692/faulenrost.html</idno>
+                </place>
+                <place xml:id="ed_ovs_pq5_zdb">
+                    <placeName type="reg">Fehrbellin</placeName>
+                    <idno type="uri">http://www.geonames.org/2927564/fehrbellin.html</idno>
+                </place>
+                <place xml:id="ed_trb_hgy_dcb">
+                    <placeName type="reg">Finckenstein</placeName>
+                    <idno type="uri">http://www.geonames.org/3096799</idno>
+                </place>
+                <place xml:id="ed_k51_n4g_hy">
+                    <placeName xmlns:tei="http://www.tei-c.org/ns/1.0" type="reg"
+                        >Fischhausen</placeName>
+                    <idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="uri"
+                        >http://www.geonames.org/505270</idno>
+                </place>
+                <place xml:id="ed_hvj_3qm_wcb">
+                    <placeName type="reg">Flensburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2926271</idno>
+                </place>
+                <place xml:id="ed_fsg_nbr_v2b">
+                    <placeName type="reg">Florenz</placeName>
+                    <idno type="uri">http://www.geonames.org/3176959/florence.html</idno>
+                </place>
+                <place xml:id="ed_bvh_3rv_h2b">
+                    <placeName type="reg">Forst</placeName>
+                    <idno type="uri">http://www.geonames.org/2925832/forst.html</idno>
+                </place>
+                <place xml:id="ed_s3m_f12_ycb">
+                    <placeName type="reg">Frankfurt (Oder)</placeName>
+                    <idno type="uri">http://www.geonames.org/2925535</idno>
+                </place>
+                <place xml:id="ed_tjp_yh5_2z">
+                    <placeName type="reg">Frankfurt am Main</placeName>
+                    <idno type="uri">http://www.geonames.org/2925533</idno>
+                </place>
+                <place xml:id="ed_ust_ky4_dz">
+                    <placeName type="reg">Frankreich</placeName>
+                </place>
+                <place xml:id="ed_ebm_dlz_g2b">
+                    <placeName type="reg">Franzensbad</placeName>
+                    <idno type="uri">http://www.geonames.org/3076136/frantiskovy-lazne.html</idno>
+                </place>
+                <place xml:id="ed_nkz_l4y_bcb">
+                    <placeName type="reg">Frauenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/3099634</idno>
+                </place>
+                <place xml:id="ed_kxj_mf2_ndb">
+                    <placeName type="reg">Fredersdorf</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/6547605/fredersdorf-vogelsdorf.html</idno>
+                </place>
+                <place xml:id="ed_hjy_4l3_tcb">
+                    <placeName type="reg">Freiberg</placeName>
+                    <idno type="uri">http://www.geonames.org/6550757</idno>
+                </place>
+                <place xml:id="ed_shd_tfq_tdb">
+                    <placeName type="reg">Freiburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2925177/freiburg.html</idno>
+                </place>
+                <place xml:id="ed_kbf_hfz_ny">
+                    <placeName type="reg">Freienwalde</placeName>
+                    <idno type="uri">http://www.geonames.org/2953458</idno>
+                </place>
+                <place xml:id="ed_vnn_3lg_hy">
+                    <placeName type="reg">Friedersdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2924713</idno>
+                </place>
+                <place xml:id="ed_lfw_2fg_hy">
+                    <placeName type="reg">Friedland</placeName>
+                    <idno type="uri">http://www.geonames.org/2924680</idno>
+                </place>
+                <place xml:id="ed_jjq_zlg_hy">
+                    <placeName type="reg">Friedrichsfelde</placeName>
+                    <idno type="uri">http://www.geonames.org/2924599</idno>
+                </place>
+                <place xml:id="ed_hpg_nxq_rhb">
+                    <placeName type="reg">Friedrichshof</placeName>
+                    <idno type="uri">http://www.geonames.org/760203/rozogi.html</idno>
+                </place>
+                <place xml:id="ed_ozj_3md_2y">
+                    <placeName type="reg">Friedrichskron</placeName>
+                    <idno type="uri">http://www.geonames.org/2865419</idno>
+                    <note>Neues Palais Potsdam</note>
+                </place>
+                <place xml:id="ed_igr_4kd_gy">
+                    <placeName xmlns:tei="http://www.tei-c.org/ns/1.0" type="reg"
+                        >Friedrichstein</placeName>
+                    <idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="uri"
+                        >http://www.geonames.org/825748</idno>
+                </place>
+                <place xml:id="ed_eyf_d1r_clb">
+                    <placeName type="reg">Fritschendorf</placeName>
+                </place>
+                <place xml:id="ed_icf_3tm_zcb">
+                    <placeName type="reg">Fürstenau</placeName>
+                    <idno type="uri">http://www.geonames.org/3094344</idno>
+                </place>
+                <place xml:id="ed_hk4_fy1_dy">
+                    <placeName type="reg">Fürstenwalde</placeName>
+                    <idno type="uri">http://www.geonames.org/2923588</idno>
+                </place>
+                <place xml:id="ed_ilm_sn5_zdb">
+                    <placeName type="reg">Fuschl</placeName>
+                    <idno type="uri">http://www.geonames.org/2779084/fuschl-am-see.html</idno>
+                </place>
+                <place xml:id="ed_mr4_v41_h2b">
+                    <placeName type="reg">Gablanken</placeName>
+                    <note>Krs. Mohrungen, Ostpreußen</note>
+                </place>
+                <place xml:id="ed_jrl_xwk_gbb">
+                    <placeName type="reg">Garmisch-Partenkirchen</placeName>
+                    <idno type="uri">http://www.geonames.org/2922530</idno>
+                </place>
+                <place xml:id="ed_spf_qxw_f2b">
+                    <placeName type="reg">Garz</placeName>
+                    <idno type="uri">http://www.geonames.org/6547860/wildberg.html</idno>
+                </place>
+                <place xml:id="ed_lrj_sc1_12b">
+                    <placeName type="reg">Gebersdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2922189/gebersdorf.html</idno>
+                </place>
+                <place xml:id="ed_a3g_2bk_d2b">
+                    <placeName type="reg">Georgenau</placeName>
+                    <idno type="uri">http://www.geonames.org/825826/roshchino.html</idno>
+                </place>
+                <place xml:id="ed_o3c_stc_py">
+                    <placeName type="reg">Georgenberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3044310</idno>
+                </place>
+                <place xml:id="ed_uks_n5k_gy">
+                    <placeName type="reg">Gerdauen</placeName>
+                    <idno type="uri">http://www.geonames.org/463356</idno>
+                </place>
+                <place xml:id="ed_rx3_my3_tdb">
+                    <placeName type="reg">Gievitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2915604/gross-gievitz.html</idno>
+                </place>
+                <place xml:id="ed_rg5_v3w_12b">
+                    <placeName type="reg">Glauchau</placeName>
+                    <idno type="uri">http://www.geonames.org/2920020/glauchau.html</idno>
+                </place>
+                <place xml:id="ed_gqr_q3w_h2b">
+                    <placeName type="reg">Glembowen</placeName>
+                    <note>Gut</note>
+                </place>
+                <place xml:id="ed_nhm_rdz_bz">
+                    <placeName type="reg">Glogau</placeName>
+                    <idno type="uri">http://www.geonames.org/3099213</idno>
+                </place>
+                <place xml:id="ed_njt_m4w_mbb">
+                    <placeName type="reg">Glubenstein</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/GLUEINKO04RA</idno>
+                    <note>Kreis Rastenburg</note>
+                </place>
+                <place xml:id="ed_syv_qzw_hkb">
+                    <placeName type="reg">Gneist</placeName>
+                    <idno type="uri">https://www.geonames.org/768971/knis.html</idno>
+                </place>
+                <place xml:id="ed_xxf_xzq_rhb">
+                    <placeName type="reg">Gniewkowo</placeName>
+                    <idno type="uri">http://www.geonames.org/7533232/gniewkowo.html</idno>
+                </place>
+                <place xml:id="ed_exy_rfk_wcb">
+                    <placeName type="reg">Goldap</placeName>
+                    <idno type="uri">http://www.geonames.org/771953</idno>
+                </place>
+                <place xml:id="ed_rch_2pl_ddb">
+                    <placeName type="reg">Goldberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3080074/zlotoryja.html</idno>
+                </place>
+                <place xml:id="ed_uzs_vp2_b2b">
+                    <placeName type="reg">Goldschmiede</placeName>
+                    <idno type="uri">http://www.geonames.org/826287/dimitrovo.html</idno>
+                </place>
+                <place xml:id="ed_ef2_5mg_hy">
+                    <placeName type="reg">Gölsdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2919182</idno>
+                </place>
+                <place xml:id="ed_mj3_t1x_f2b">
+                    <placeName type="reg">Golßen</placeName>
+                    <idno type="uri">http://www.geonames.org/2919177/golssen.html</idno>
+                </place>
+                <place xml:id="ed_kkd_vn1_tcb">
+                    <placeName type="reg">Gorgast</placeName>
+                    <idno type="uri">http://www.geonames.org/2919029</idno>
+                </place>
+                <place xml:id="ed_mds_m2q_tdb">
+                    <placeName type="reg">Görlitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2918987/goerlitz.html</idno>
+                </place>
+                <place xml:id="ed_s2c_qmh_h2b">
+                    <placeName type="reg">Goschütz</placeName>
+                    <idno type="uri">http://www.geonames.org/3094165/kuznia-goszczanska.html</idno>
+                </place>
+                <place xml:id="ed_v2c_gc1_fy">
+                    <placeName type="reg">Graditz</placeName>
+                    <idno type="uri">http://www.geonames.org/2918377</idno>
+                </place>
+                <place xml:id="ed_bfj_pyf_ccb">
+                    <placeName type="reg">Grajewo</placeName>
+                    <idno type="uri">http://www.geonames.org/771506</idno>
+                </place>
+                <place xml:id="ed_uqf_bvt_gfb">
+                    <placeName type="reg">Gramzow</placeName>
+                    <idno type="uri">http://www.geonames.org/2918132/gramzow.html</idno>
+                </place>
+                <place xml:id="ed_nv2_5jj_mfb">
+                    <placeName type="reg">Grasleben</placeName>
+                    <idno type="uri">http://www.geonames.org/2917991/grasleben.html</idno>
+                </place>
+                <place xml:id="ed_ulm_mxd_py">
+                    <placeName type="reg">Grasnitz</placeName>
+                    <idno type="uri">https://www.geonames.org/771485/grazymy.html</idno>
+                </place>
+                <place xml:id="ed_pgb_tjr_gz">
+                    <placeName type="reg">Graudenz</placeName>
+                    <idno type="uri">http://www.geonames.org/3098218</idno>
+                </place>
+                <place xml:id="ed_apz_2g5_22b">
+                    <placeName type="reg">Gravelotte</placeName>
+                    <idno type="uri">http://www.geonames.org/3014810/gravelotte.html</idno>
+                </place>
+                <place xml:id="ed_xqy_23f_s3b">
+                    <placeName type="reg">Grebin</placeName>
+                    <idno type="uri">https://www.geonames.org/2917846/grebin.html</idno>
+                </place>
+                <place xml:id="ed_d3p_frp_tdb">
+                    <placeName type="reg">Greibau</placeName>
+                    <idno type="uri">http://gov.genealogy.net/GREBAUKO04DS</idno>
+                </place>
+                <place xml:id="ed_odv_fsq_rdb">
+                    <placeName type="reg">Greifswald</placeName>
+                    <idno type="uri">http://www.geonames.org/2917788/greifswald.html</idno>
+                </place>
+                <place xml:id="ed_fpj_wlr_kfb">
+                    <placeName type="reg">Grizzanna</placeName>
+                    <idno type="uri">http://www.geonames.org/3181928/bologna.html</idno>
+                </place>
+                <place xml:id="ed_wzc_mwg_hy">
+                    <placeName type="reg">Grocholin</placeName>
+                    <idno type="uri">http://www.geonames.org/3098360</idno>
+                </place>
+                <place xml:id="ed_evd_t55_zdb">
+                    <placeName type="reg">Grodno</placeName>
+                    <idno type="uri">http://www.geonames.org/627904/hrodna.html</idno>
+                </place>
+                <place xml:id="ed_smf_w15_g2b">
+                    <placeName type="reg">Groß Budschen</placeName>
+                    <idno type="uri">http://www.geonames.org/774878/budzewo.html</idno>
+                </place>
+                <place xml:id="ed_bnr_sqc_py">
+                    <placeName type="reg">Groß Cammin</placeName>
+                    <idno type="uri">http://www.geonames.org/3096755</idno>
+                </place>
+                <place xml:id="ed_hfm_mwl_gfb">
+                    <placeName type="reg">Groß Gievitz</placeName>
+                    <idno type="uri">https://www.geonames.org/6548055/gross-gievitz.html</idno>
+                </place>
+                <place xml:id="ed_lqp_ndf_n2b">
+                    <placeName type="reg">Groß Guja</placeName>
+                    <idno type="uri">http://www.geonames.org/771247/guja.html</idno>
+                </place>
+                <place xml:id="ed_ins_wkv_g2b">
+                    <placeName type="reg">Groß Schöndamm</placeName>
+                    <note>b. Ortelsburg</note>
+                </place>
+                <place xml:id="ed_hj2_jwg_hy">
+                    <placeName type="reg">Groß Strelitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3084415</idno>
+                </place>
+                <place xml:id="ed_qbg_v2h_tdb">
+                    <placeName type="reg">Groß Stürlack</placeName>
+                    <idno type="uri">http://www.geonames.org/758180/sterlawki-wielkie.html</idno>
+                </place>
+                <place xml:id="ed_qjl_tqy_bz">
+                    <placeName type="reg">Grüssau</placeName>
+                    <idno type="uri">http://www.geonames.org/3094494</idno>
+                </place>
+                <place xml:id="ed_hrk_5qf_cy">
+                    <placeName type="reg">Gumbinnen</placeName>
+                    <idno type="uri">http://www.geonames.org/557882</idno>
+                </place>
+                <place xml:id="ed_nhs_lrg_gcb">
+                    <placeName type="reg">Guntersblum</placeName>
+                    <idno type="uri">http://www.geonames.org/6555274</idno>
+                </place>
+                <place xml:id="ed_y2f_y3g_hy">
+                    <placeName type="reg">Gusow</placeName>
+                    <idno type="uri">http://www.geonames.org/2913477</idno>
+                </place>
+                <place xml:id="ed_jbj_yr4_vcb">
+                    <placeName type="reg">Guttstadt</placeName>
+                    <idno type="uri">http://www.geonames.org/773148/dobre-miasto.html</idno>
+                </place>
+                <place xml:id="ed_kkd_nqv_h2b">
+                    <placeName type="reg">Guzianka</placeName>
+                    <idno type="uri">http://www.geonames.org/6285304/guzianka-guzianka-w.html</idno>
+                </place>
+                <place xml:id="ed_qr3_qst_ncb">
+                    <placeName type="reg">Haarszen</placeName>
+                    <idno type="uri">http://www.geonames.org/771129</idno>
+                </place>
+                <place xml:id="ed_x12_5wr_rdb">
+                    <placeName type="reg">Halberstadt</placeName>
+                    <idno type="uri">http://www.geonames.org/2911665/halberstadt.html</idno>
+                </place>
+                <place xml:id="ed_ot2_ffg_4y">
+                    <placeName type="reg">Halle</placeName>
+                    <idno type="uri">http://www.geonames.org/2911522</idno>
+                </place>
+                <place xml:id="ed_rqx_tnz_2y">
+                    <placeName type="reg">Hamburg</placeName>
+                    <idno type="uri">http://www.geonames.org/10299506</idno>
+                </place>
+                <place xml:id="ed_wms_sgc_gy">
+                    <placeName type="reg">Hannover</placeName>
+                    <idno type="uri">http://www.geonames.org/2910831</idno>
+                </place>
+                <place xml:id="ed_qnb_ryq_d2b">
+                    <placeName type="reg">Haselhorst</placeName>
+                    <idno type="uri">http://www.geonames.org/2909794/haselhorst.html</idno>
+                </place>
+                <place xml:id="ed_h1j_gpl_ddb">
+                    <placeName type="reg">Haynau</placeName>
+                    <idno type="uri">http://www.geonames.org/3101660/chojnow.html</idno>
+                </place>
+                <place xml:id="ed_wvr_tfd_gy">
+                    <placeName type="reg">Heidekrug</placeName>
+                    <idno type="uri">http://www.geonames.org/594656</idno>
+                </place>
+                <place xml:id="ed_lfs_yjp_tdb">
+                    <placeName type="reg">Heiligelinde</placeName>
+                    <idno type="uri">http://www.geonames.org/757603/swieta-lipka.html</idno>
+                </place>
+                <place xml:id="ed_opk_y4s_d2b">
+                    <placeName type="reg">Heiligenbeil</placeName>
+                    <idno type="uri">http://www.geonames.org/2609901/mamonovo.html</idno>
+                </place>
+                <place xml:id="ed_hdy_n3y_bcb">
+                    <placeName type="reg">Heilsberg</placeName>
+                    <idno type="uri">http://www.geonames.org/766307/</idno>
+                </place>
+                <place xml:id="ed_z3x_3l5_22b">
+                    <placeName type="reg">Helgoland</placeName>
+                    <idno type="uri">http://www.geonames.org/2906947/helgoland.html</idno>
+                </place>
+                <place xml:id="ed_hvr_jq5_22b">
+                    <placeName type="reg">Heringsdorf</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/9965024/travel-charme-strandidyll.html</idno>
+                </place>
+                <place xml:id="ed_zrq_mcq_tdb">
+                    <placeName type="reg">Herrnhut</placeName>
+                    <idno type="uri">http://www.geonames.org/2905643/herrnhut.html</idno>
+                </place>
+                <place xml:id="ed_f2c_3dq_tdb">
+                    <placeName type="reg">Hirschberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3097257/jelenia-gora.html</idno>
+                </place>
+                <place xml:id="ed_c12_42q_tdb">
+                    <placeName type="reg">Hochkirch</placeName>
+                    <idno type="uri">http://www.geonames.org/2903125/hochkirch.html</idno>
+                </place>
+                <place xml:id="ed_bc2_tq3_tdb">
+                    <placeName type="reg">Hof </placeName>
+                    <idno type="uri">http://www.geonames.org/2866889/naundorf.html</idno>
+                </place>
+                <place xml:id="ed_nmn_d1h_ldb">
+                    <placeName type="reg">Hohendorf</placeName>
+                    <idno type="uri">http://www.geonames.org/3083616/sztum.html</idno>
+                </place>
+                <place xml:id="ed_fyb_kgq_1fb">
+                    <placeName type="reg">Hohenstein</placeName>
+                    <idno type="uri">http://www.geonames.org/763165/olsztynek.html</idno>
+                </place>
+                <place xml:id="ed_y3h_y2b_h2b">
+                    <placeName type="reg">Hohenwalde</placeName>
+                    <idno type="uri">http://www.geonames.org/3094476/krzewsk.html</idno>
+                </place>
+                <place xml:id="ed_mcy_22q_tdb">
+                    <placeName type="reg">Hohlstein</placeName>
+                    <idno type="uri">http://www.geonames.org/3085867/skala.html</idno>
+                </place>
+                <place xml:id="ed_tkm_f2n_4y">
+                    <placeName type="reg">Holland</placeName>
+                    <placeName type="alt">Niederlande</placeName>
+                </place>
+                <place xml:id="ed_tgj_5ww_22b">
+                    <placeName type="reg">Hoppenrade</placeName>
+                    <idno type="uri">http://www.geonames.org/6547886/hoppenrade.html</idno>
+                </place>
+                <place xml:id="ed_ntb_dtj_h3b">
+                    <placeName type="reg">Ihingen</placeName>
+                    <idno type="uri">https://www.geonames.org/2848175/renningen.html</idno>
+                    <note>Renningen-Ihinger Hof</note>
+                </place>
+                <place xml:id="ed_chm_b1r_rhb">
+                    <placeName type="reg">Inowraclaw</placeName>
+                    <idno type="uri">http://www.geonames.org/3097872/inowroclaw.html</idno>
+                </place>
+                <place xml:id="ed_rdg_jkc_gy">
+                    <placeName type="reg">Insterburg</placeName>
+                    <idno type="uri">http://www.geonames.org/568595</idno>
+                </place>
+                <place xml:id="ed_ayh_khw_12b">
+                    <placeName type="reg">Irfersgrün</placeName>
+                    <idno type="uri">http://www.geonames.org/2895849/irfersgruen.html</idno>
+                </place>
+                <place xml:id="ed_g3s_5s1_t2b">
+                    <placeName type="reg">Italien</placeName>
+                </place>
+                <place xml:id="ed_mfq_ny3_tdb">
+                    <placeName type="reg">Ivenack</placeName>
+                    <idno type="uri">http://www.geonames.org/2895545/ivenack.html</idno>
+                </place>
+                <place xml:id="ed_m5l_flv_g2b">
+                    <placeName type="reg">Jablonken</placeName>
+                    <idno type="uri">http://www.geonames.org/770719/jablonka.html</idno>
+                </place>
+                <place xml:id="ed_l44_l1v_h2b">
+                    <placeName type="reg">Jäcknitz</placeName>
+                    <idno type="uri">http://www.geonames.org/544807/kornevo.html</idno>
+                </place>
+                <place xml:id="ed_wrc_ccx_f2b">
+                    <placeName type="reg">Jäglack</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/JAGAC1KO04RF</idno>
+                </place>
+                <place xml:id="ed_z12_c1m_z1b">
+                    <placeName type="reg">Jagodnen</placeName>
+                    <idno type="uri">http://www.geonames.org/770634/jagodne.html</idno>
+                </place>
+                <place xml:id="ed_f24_y55_zdb">
+                    <placeName type="reg">Jalta</placeName>
+                    <idno type="uri">http://www.geonames.org/688533/yalta.html</idno>
+                </place>
+                <place xml:id="ed_fmn_dpt_sdb">
+                    <placeName type="reg">Januschau</placeName>
+                    <idno type="uri">http://www.geonames.org/3097563/januszewo.html</idno>
+                </place>
+                <place xml:id="ed_yfb_2m4_vcb">
+                    <placeName type="reg">Jerutten</placeName>
+                    <idno type="uri">http://www.geonames.org/770097</idno>
+                </place>
+                <place xml:id="ed_rlk_zpp_vcb">
+                    <placeName type="reg">Johannisburg</placeName>
+                    <idno type="uri">http://www.geonames.org/762120/pisz.html</idno>
+                </place>
+                <place xml:id="ed_s51_gvl_gfb">
+                    <placeName type="reg">Jöllenbeck</placeName>
+                    <idno type="uri">http://www.geonames.org/8504778/joellenbeck.html</idno>
+                </place>
+                <place xml:id="ed_dgd_mqp_vcb">
+                    <placeName type="reg">Kalinowen</placeName>
+                    <idno type="uri">http://www.geonames.org/769764/kalinowo.html</idno>
+                </place>
+                <place xml:id="ed_ctz_tcf_4y">
+                    <placeName type="reg">Kalisch</placeName>
+                    <idno type="uri">http://www.geonames.org/3096880</idno>
+                </place>
+                <place xml:id="ed_rjy_23t_g2b">
+                    <placeName type="reg">Kallen</placeName>
+                    <idno type="uri"
+                        >https://www.geonames.org/554230/kaliningradskaya-oblast.html</idno>
+                </place>
+                <place xml:id="ed_xyz_4pj_d2b">
+                    <placeName type="reg">Kamenz</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/3096795/kamieniec-zabkowicki.html</idno>
+                </place>
+                <place xml:id="ed_gq4_dyq_rhb">
+                    <placeName type="reg">Kannewiese</placeName>
+                    <note> Dorfschaft Przedzienk (Amt Willenberg)</note>
+                </place>
+                <place xml:id="ed_bql_l5b_ycb">
+                    <placeName type="reg">Karlsbad</placeName>
+                    <placeName type="alt">Carlsbad</placeName>
+                    <idno type="uri">http://www.geonames.org/3073803</idno>
+                </place>
+                <place xml:id="ed_ipx_nfv_c2b">
+                    <placeName type="reg">Karlsruhe</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/11073576/marktplatz-karlsruhe.html</idno>
+                </place>
+                <place xml:id="ed_udx_kjm_zdb">
+                    <placeName type="reg">Karlswalde</placeName>
+                    <idno type="uri">http://www.geonames.org/769518/karlowo.html</idno>
+                </place>
+                <place xml:id="ed_znc_cnv_22b">
+                    <placeName type="reg">Karnitten</placeName>
+                    <idno type="uri">http://www.geonames.org/3096604/karnitki.html</idno>
+                </place>
+                <place xml:id="ed_z3s_whp_tdb">
+                    <placeName type="reg">Karwinden</placeName>
+                    <idno type="uri">http://www.geonames.org/3096519/karwiny.html</idno>
+                </place>
+                <place xml:id="ed_zbj_xfn_scb">
+                    <placeName type="reg">Kassel</placeName>
+                    <idno type="uri">http://www.geonames.org/2892518</idno>
+                </place>
+                <place xml:id="ed_t32_vvd_py">
+                    <placeName type="reg">Kehlerwald</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/KEHALDKO04VF</idno>
+                </place>
+                <place xml:id="ed_bqf_crs_d2b">
+                    <placeName type="reg">Keimkallen</placeName>
+                    <idno type="uri">http://gov.genealogy.net/KEILENKO04AM</idno>
+                </place>
+                <place xml:id="ed_iwp_rx3_wcb">
+                    <placeName type="reg">Kiel</placeName>
+                    <idno type="uri">http://www.geonames.org/2891122</idno>
+                </place>
+                <place xml:id="ed_wh4_rhg_ldb">
+                    <placeName type="reg">Kilgis</placeName>
+                    <idno type="uri">http://www.geonames.org/872709/kilgis.html</idno>
+                </place>
+                <place xml:id="ed_f5p_bb4_zdb">
+                    <placeName type="reg">Kirsaiten</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/6285327/kirsajty-ciesnina-kirsajty-mamry.html</idno>
+                </place>
+                <place xml:id="ed_xnn_d12_gy">
+                    <placeName type="reg">Kittlitz</placeName>
+                    <idno type="uri">http://www.geonames.org/756048</idno>
+                </place>
+                <place xml:id="ed_qxq_zwg_1cb">
+                    <placeName type="reg">Klein Budschen</placeName>
+                    <idno type="uri">http://www.geonames.org/774879/</idno>
+                </place>
+                <place xml:id="ed_trb_fzz_ncb">
+                    <placeName type="reg">Klein Lehden</placeName>
+                    <note>Vorwerk, Amtsbez. Schaken</note>
+                </place>
+                <place xml:id="ed_hyn_yzd_gy">
+                    <placeName type="reg">Klein Steinort</placeName>
+                    <idno type="uri">http://www.geonames.org/757233</idno>
+                </place>
+                <place xml:id="ed_ggy_jd1_4cb">
+                    <placeName type="reg">Klein Tauersen</placeName>
+                    <note>Amtsbez. Königsberg</note>
+                </place>
+                <place xml:id="ed_cxv_tld_gy">
+                    <placeName type="reg">Kleszowen</placeName>
+                    <idno type="uri">http://www.geonames.org/826224</idno>
+                </place>
+                <place xml:id="ed_akt_x2q_rdb">
+                    <placeName type="reg">Kleve</placeName>
+                    <idno type="uri">http://www.geonames.org/2887835/kleve.html</idno>
+                </place>
+                <place xml:id="ed_eqv_vlp_tcb">
+                    <placeName type="reg">Kleve, Herzogtum</placeName>
+                    <idno type="uri">http://www.geonames.org/764777/mikolajki.html</idno>
+                </place>
+                <place xml:id="ed_o52_cvs_g2b">
+                    <placeName type="reg">Klonn</placeName>
+                    <idno type="uri">https://www.geonames.org/769035/klon.html</idno>
+                </place>
+                <place xml:id="ed_e44_fxr_tcb">
+                    <placeName type="reg">Kloster Berge</placeName>
+                    <idno type="uri">http://www.geonames.org/2887525</idno>
+                </place>
+                <place xml:id="ed_ql3_f3j_h3b">
+                    <placeName type="reg">Klötzen</placeName>
+                    <idno type="uri">https://www.geonames.org/7535862/klecewo.html</idno>
+                </place>
+                <place xml:id="ed_bnn_clp_tdb">
+                    <placeName type="reg">Knyszyn</placeName>
+                    <idno type="uri">Gouvernement Grodno, Kreis Bialystok</idno>
+                </place>
+                <place xml:id="ed_zv2_p4z_ny">
+                    <placeName type="reg">Koblenz</placeName>
+                    <idno type="uri">http://www.geonames.org/2886946</idno>
+                </place>
+                <place xml:id="ed_ewj_qww_22b">
+                    <placeName type="reg">Kolberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3095795/kolobrzeg.html</idno>
+                </place>
+                <place xml:id="ed_w5n_qd1_tcb">
+                    <placeName type="reg">Kolin</placeName>
+                    <idno type="uri">http://www.geonames.org/3073371</idno>
+                </place>
+                <place xml:id="ed_hkz_d1b_1bb">
+                    <placeName type="reg">Köln</placeName>
+                    <idno type="uri">http://www.geonames.org/2886242</idno>
+                </place>
+                <place xml:id="ed_sqc_vrm_cz">
+                    <placeName type="reg">Königgrätz</placeName>
+                    <idno type="uri">http://www.geonames.org/3074967</idno>
+                </place>
+                <place xml:id="ed_ysw_qr1_dy">
+                    <placeName type="reg">Königsberg</placeName>
+                    <idno type="uri">http://www.geonames.org/554234</idno>
+                </place>
+                <place xml:id="ed_i3c_jqh_4cb">
+                    <placeName type="reg">Königsberg/Nm.</placeName>
+                    <idno type="uri">http://www.geonames.org/7533173</idno>
+                </place>
+                <place xml:id="ed_czc_5l3_tcb">
+                    <placeName type="reg">Königstein</placeName>
+                    <idno type="uri">http://www.geonames.org/2885766</idno>
+                </place>
+                <place xml:id="ed_jql_21q_vcb">
+                    <placeName type="reg">Konitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3101672/chojnice.html</idno>
+                </place>
+                <place xml:id="ed_fsn_mtp_tdb">
+                    <placeName type="reg">Konstantinopel</placeName>
+                    <idno type="uri">http://www.geonames.org/745044/istanbul.html</idno>
+                </place>
+                <place xml:id="ed_ip4_b15_q2b">
+                    <placeName type="reg">Kopenhagen</placeName>
+                    <idno type="uri">http://www.geonames.org/2618425/copenhagen.html</idno>
+                </place>
+                <place xml:id="ed_nyy_kbp_vcb">
+                    <placeName type="reg">Köpenick</placeName>
+                    <idno type="uri">http://www.geonames.org/2885656/koepenick.html</idno>
+                </place>
+                <place xml:id="ed_ugw_w2b_tcb">
+                    <placeName type="reg">Korklack</placeName>
+                    <idno type="uri"> http://gov.genealogy.net/KORAC2KO04PH</idno>
+                    <note>Kreis Gerdauen</note>
+                </place>
+                <place xml:id="ed_n1d_5s4_cz">
+                    <placeName type="reg">Körlin</placeName>
+                    <idno type="uri">http://www.geonames.org/3096630</idno>
+                </place>
+                <place xml:id="ed_ul3_xs4_cz">
+                    <placeName type="reg">Köslin</placeName>
+                    <idno type="uri">http://www.geonames.org/3095049</idno>
+                </place>
+                <place xml:id="ed_fxy_2zl_w2b">
+                    <placeName type="reg">Krakau</placeName>
+                    <idno type="uri">http://www.geonames.org/3094802/krakow.html</idno>
+                </place>
+                <place xml:id="ed_cyb_jzt_g2b">
+                    <placeName type="reg">Kreut</placeName>
+                    <idno type="uri">http://www.geonames.org/2884296/kreut.html</idno>
+                </place>
+                <place xml:id="ed_hlf_ztt_sdb">
+                    <placeName type="reg">Kriebstein</placeName>
+                    <idno type="uri">http://www.geonames.org/6548567/kriebstein.html</idno>
+                </place>
+                <place xml:id="ed_bvh_3vc_mfb">
+                    <placeName type="reg">Kruglanken</placeName>
+                    <idno type="uri">http://www.geonames.org/767435/kruklanki.html</idno>
+                </place>
+                <place xml:id="ed_lqp_h14_my">
+                    <placeName type="reg">Kuchelmiß</placeName>
+                    <idno type="uri">http://www.geonames.org/2883156</idno>
+                </place>
+                <place xml:id="ed_dwb_ng3_ycb">
+                    <placeName type="reg">Kudowa</placeName>
+                    <idno type="uri">http://www.geonames.org/3094303</idno>
+                </place>
+                <place xml:id="ed_chq_stz_gfb">
+                    <placeName type="reg">Kulm</placeName>
+                    <idno type="uri">http://www.geonames.org/3101795/chelmno.html</idno>
+                </place>
+                <place xml:id="ed_flz_dfg_hy">
+                    <placeName type="reg">Kunersdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2882494</idno>
+                </place>
+                <place xml:id="ed_sbf_bjy_ydb">
+                    <placeName type="reg">Kurland</placeName>
+                    <idno type="uri">http://www.geonames.org/460496/kurzeme.html</idno>
+                </place>
+                <place xml:id="ed_ehf_3l1_tcb">
+                    <placeName type="reg">Küstrin</placeName>
+                    <idno type="uri">http://www.geonames.org/7531390</idno>
+                </place>
+                <place xml:id="ed_xpm_112_gy">
+                    <placeName type="reg">Labab</placeName>
+                    <idno type="uri">http://www.geonames.org/766906</idno>
+                </place>
+                <place xml:id="ed_tcv_lps_d2b">
+                    <placeName type="reg">Labiau</placeName>
+                    <idno type="uri">http://www.geonames.org/507291/polessk.html</idno>
+                </place>
+                <place xml:id="ed_abt_rqy_bz">
+                    <placeName type="reg">Landeshut</placeName>
+                    <idno type="uri">http://www.geonames.org/3096779</idno>
+                </place>
+                <place xml:id="ed_tqz_tg5_h2b">
+                    <placeName type="reg">Landien b. Friesack</placeName>
+                    <idno type="uri">http://www.geonames.org/3209303/landin.html</idno>
+                </place>
+                <place xml:id="ed_kmf_bmg_ccb">
+                    <placeName type="reg">Landin</placeName>
+                    <idno type="uri">http://www.geonames.org/6547739</idno>
+                </place>
+                <place xml:id="ed_enz_4vz_g1b">
+                    <placeName type="reg">Landkeim</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/LANEIMKO04ER</idno>
+                    <note>Kreis Fischhausen/Samland</note>
+                </place>
+                <place xml:id="ed_uzd_5c3_ycb">
+                    <placeName type="reg">Landsberg a. W.</placeName>
+                    <idno type="uri">http://www.geonames.org/3098722</idno>
+                </place>
+                <place xml:id="ed_e3k_fx3_d2b">
+                    <placeName type="reg">Langbrück</placeName>
+                    <idno type="uri">http://www.geonames.org/773203/dluzec.html</idno>
+                </place>
+                <place xml:id="ed_p42_tgl_gbb">
+                    <placeName type="reg">Langen</placeName>
+                    <idno type="uri">http://www.geonames.org/2881277/langen.html</idno>
+                </place>
+                <place xml:id="ed_svr_5fp_tdb">
+                    <placeName type="reg">Langfuhr</placeName>
+                    <idno type="uri">http://www.geonames.org/3081318/wrzeszcz.html</idno>
+                </place>
+                <place xml:id="ed_qbf_xgs_bdb">
+                    <placeName type="reg">Laon</placeName>
+                    <idno type="uri">http://www.geonames.org/3007477</idno>
+                </place>
+                <place xml:id="ed_g3j_3dt_zdb">
+                    <placeName type="reg">Lappienen</placeName>
+                    <idno type="uri">http://www.geonames.org/574260/bol-shiye-berezhki.html</idno>
+                </place>
+                <place xml:id="ed_ypr_tzz_ncb">
+                    <placeName type="reg">Laserkeim</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/LASEIMKO04DS</idno>
+                    <note>Oblast Kaliningrad</note>
+                </place>
+                <place xml:id="ed_p43_r3p_tdb">
+                    <placeName type="reg">Lauck</placeName>
+                    <idno type="uri">http://www.geonames.org/3093808/lawki.html</idno>
+                </place>
+                <place xml:id="ed_b4d_xhz_bcb">
+                    <placeName type="reg">Lauenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/3093739</idno>
+                </place>
+                <place xml:id="ed_kvd_qkz_g2b">
+                    <placeName type="reg">Lausanne</placeName>
+                    <idno type="uri">http://www.geonames.org/2659994/lausanne.html</idno>
+                </place>
+                <place xml:id="ed_bcj_kvm_cz">
+                    <placeName type="reg">Lausitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2880010/lausitz.html</idno>
+                </place>
+                <place xml:id="ed_o3v_4zq_rhb">
+                    <placeName type="reg">Lautenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/3093439/lidzbark.html</idno>
+                </place>
+                <place xml:id="ed_b4h_pkp_tdb">
+                    <placeName type="reg">Lawken</placeName>
+                    <idno type="uri">http://www.geonames.org/766665/lawki.html</idno>
+                </place>
+                <place xml:id="ed_flc_kyf_hy">
+                    <placeName type="reg">Leipzig</placeName>
+                    <idno type="uri">http://www.geonames.org/2879139</idno>
+                </place>
+                <place xml:id="ed_n1r_fyb_tcb">
+                    <placeName type="reg">Leißienen</placeName>
+                    <idno type="uri">http://www.geonames.org/501730/rodniki.html</idno>
+                </place>
+                <place xml:id="ed_cjc_z34_dz">
+                    <placeName type="reg">Leitmeritz</placeName>
+                    <idno type="uri">http://www.geonames.org/3071677</idno>
+                </place>
+                <place xml:id="ed_vwz_151_4fb">
+                    <placeName type="reg">Lemberg</placeName>
+                    <idno type="uri">http://www.geonames.org/702550/lviv.html</idno>
+                </place>
+                <place xml:id="ed_q33_b5v_g2b">
+                    <placeName type="reg">Letzlingen</placeName>
+                    <idno type="uri">http://www.geonames.org/2878410/letzlingen.html</idno>
+                </place>
+                <place xml:id="ed_oyk_sjy_ydb">
+                    <placeName type="reg">Libau</placeName>
+                    <idno type="uri">http://www.geonames.org/457954/liepaja.html</idno>
+                </place>
+                <place xml:id="ed_eb1_24x_y2b">
+                    <placeName type="reg">Lichtenberg</placeName>
+                    <idno type="uri">http://www.geonames.org/2878102/lichtenberg.html</idno>
+                </place>
+                <place xml:id="ed_myx_bmv_mbb">
+                    <placeName type="reg"
+                        >Lidsch<?oxy_custom_start type="oxy_content_highlight" color="153,255,255"?></placeName>
+                    <note>Landkreis</note>
+                </place>
+                <place xml:id="ed_ijm_3qs_d2b">
+                    <placeName type="reg">Liebstadt</placeName>
+                    <idno type="uri">http://www.geonames.org/764752/milakowo.html</idno>
+                </place>
+                <place xml:id="ed_cyf_grl_ddb">
+                    <placeName type="reg">Ligny</placeName>
+                    <idno type="uri">http://www.geonames.org/2792369/ligny.html</idno>
+                </place>
+                <place xml:id="ed_iyy_gvm_zcb">
+                    <placeName type="reg">Lindenau</placeName>
+                    <idno type="uri">http://www.geonames.org/513510</idno>
+                </place>
+                <place xml:id="ed_qmq_4r5_zdb">
+                    <placeName type="reg">Linz</placeName>
+                    <idno type="uri">http://www.geonames.org/2772400/linz.html</idno>
+                </place>
+                <place xml:id="ed_z15_pdp_tcb">
+                    <placeName type="reg">Litauen, Großherzogtum</placeName>
+                </place>
+                <place xml:id="ed_n55_nrz_g1b">
+                    <placeName type="reg">Löbenicht</placeName>
+                    <idno type="uri">http://www.geonames.org/8643001</idno>
+                </place>
+                <place xml:id="ed_lpl_bfq_rdb">
+                    <placeName type="reg">Lockwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2876521/lockwitz.html</idno>
+                </place>
+                <place xml:id="ed_cst_hsm_zcb">
+                    <placeName type="reg">London</placeName>
+                    <idno type="uri">http://www.geonames.org/2643743</idno>
+                </place>
+                <place xml:id="ed_bzz_pwf_cy">
+                    <placeName type="reg">Lötzen</placeName>
+                    <idno type="uri">http://www.geonames.org/766665</idno>
+                </place>
+                <place xml:id="ed_hzr_c15_q2b">
+                    <placeName type="reg">Louisenlund</placeName>
+                    <idno type="uri">http://www.geonames.org/2617392/louisenlund.html</idno>
+                </place>
+                <place xml:id="ed_jc4_nx2_n2b">
+                    <placeName type="reg">Lübeck</placeName>
+                    <idno type="uri">http://www.geonames.org/2875601/luebeck.html</idno>
+                </place>
+                <place xml:id="ed_o1s_53v_h2b">
+                    <placeName type="reg">Lugano</placeName>
+                    <idno type="uri">http://www.geonames.org/2659836/lugano.html</idno>
+                </place>
+                <place xml:id="ed_tmv_fmm_zdb">
+                    <placeName type="reg">Lugowen</placeName>
+                    <idno type="uri">http://www.geonames.org/825999/chaykovskoye.html</idno>
+                </place>
+                <place xml:id="ed_h4n_pjv_mbb">
+                    <placeName type="reg">Luisenstädt</placeName>
+                    <placeName type="alt">Luisenwahl</placeName>
+                </place>
+                <place xml:id="ed_hmn_xvj_gy">
+                    <placeName type="reg">Luisenwahl</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/LABBABKO04TD</idno>
+                    <note>Königsberger Stadpark im Stadteil Hufen</note>
+                </place>
+                <place xml:id="ed_xsg_kfp_tdb">
+                    <placeName type="reg">Lupow</placeName>
+                    <idno type="uri">http://www.geonames.org/3092697/lupawa.html</idno>
+                </place>
+                <place xml:id="ed_r3n_xtj_3fb">
+                    <placeName type="reg">Lützelstein</placeName>
+                    <idno type="uri">https://www.geonames.org/3007352/la-petite-pierre.html</idno>
+                </place>
+                <place xml:id="ed_eby_wkz_ny">
+                    <placeName type="reg">Lyck</placeName>
+                    <idno type="uri">http://www.geonames.org/772620</idno>
+                </place>
+                <place xml:id="ed_iqt_k1h_ldb">
+                    <placeName type="reg">Machnow</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/2886154/kolonie-klein-machnow.html</idno>
+                </place>
+                <place xml:id="ed_dkn_3p4_vcb">
+                    <placeName type="reg">Madrid</placeName>
+                    <idno type="uri">http://www.geonames.org/6947439</idno>
+                </place>
+                <place xml:id="ed_vyr_ys4_cz">
+                    <placeName type="reg">Magdeburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2874545</idno>
+                </place>
+                <place xml:id="ed_gcl_xj4_dz">
+                    <placeName type="reg">Mähren</placeName>
+                    <idno type="uri">http://www.geonames.org/3070359/moravia.html</idno>
+                </place>
+                <place xml:id="ed_xtz_qql_ddb">
+                    <placeName type="reg">Mainz</placeName>
+                    <idno type="uri">http://www.geonames.org/2874225/mainz.html</idno>
+                </place>
+                <place xml:id="ed_xbw_2kv_mbb">
+                    <placeName type="reg">Malditten</placeName>
+                    <note>Ermland</note>
+                </place>
+                <place xml:id="ed_l3r_gnl_ddb">
+                    <placeName type="reg">Marggrabowa</placeName>
+                    <idno type="uri">http://www.geonames.org/763291/olecko.html</idno>
+                </place>
+                <place xml:id="ed_upm_lld_2y">
+                    <placeName type="reg">Marienbad</placeName>
+                    <idno type="uri">http://www.geonames.org/3071024</idno>
+                </place>
+                <place xml:id="ed_kcg_55j_gz">
+                    <placeName type="reg">Marienburg</placeName>
+                    <idno type="uri">http://www.geonames.org/3092472</idno>
+                </place>
+                <place xml:id="ed_d31_lxj_gy">
+                    <placeName type="reg">Marienwerder</placeName>
+                    <idno type="uri">http://www.geonames.org/3094086</idno>
+                </place>
+                <place xml:id="ed_op5_ngz_g1b">
+                    <placeName type="reg">Marschallheide</placeName>
+                    <idno type="uri">https://www.geonames.org/758467/srokowo.html</idno>
+                    <note>Drengfurther Heide</note>
+                </place>
+                <place xml:id="ed_ifc_nzt_22b">
+                    <placeName type="reg">Mars la Tour</placeName>
+                    <idno type="uri">http://www.geonames.org/2995450/mars-la-tour.html</idno>
+                </place>
+                <place xml:id="ed_brr_dtj_kfb">
+                    <placeName type="reg">Masuchowken</placeName>
+                    <idno type="uri">http://www.geonames.org/765060/mazuchowka.html</idno>
+                </place>
+                <place xml:id="ed_y1h_tpk_wcb">
+                    <placeName type="reg">Masuren</placeName>
+                    <idno type="uri">http://www.geonames.org/753630</idno>
+                </place>
+                <place xml:id="ed_gkg_hhm_s3b">
+                    <placeName type="reg">Maulen</placeName>
+                    <idno type="uri">http://gov.genealogy.net/object_163971</idno>
+                    <note>Gut am Frischen Haff, südwestlich von Königsberg an der Strasse nach
+                        Ludwigsort. Der Ort ist nicht mehr existent</note>
+                </place>
+                <place xml:id="ed_bdw_bnm_cbb">
+                    <placeName type="reg">Maxkeim</placeName>
+                    <idno type="uri">http://www.geonames.org/765108</idno>
+                </place>
+                <place xml:id="ed_c3z_rjv_mbb">
+                    <placeName type="reg">Mecklenburg, Herzogtum</placeName>
+                </place>
+                <place xml:id="ed_pfq_lcl_w2b">
+                    <placeName type="reg">Medenau</placeName>
+                    <idno type="uri">http://www.geonames.org/534466/logvino.html</idno>
+                </place>
+                <place xml:id="ed_gfb_kts_g2b">
+                    <placeName type="reg">Medunischken</placeName>
+                    <idno type="uri">http://gov.genealogy.net/GROIENKO04XH</idno>
+                </place>
+                <place xml:id="ed_qjw_t5f_j1b">
+                    <placeName type="reg">Meisdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2872192/meisdorf.html</idno>
+                </place>
+                <place xml:id="ed_wqd_c35_22b">
+                    <placeName type="reg">Meisenheim</placeName>
+                    <idno type="uri">http://www.geonames.org/2872173/meisenheim.html</idno>
+                </place>
+                <place xml:id="ed_hlg_sl3_tcb">
+                    <placeName type="reg">Meißen</placeName>
+                    <idno type="uri">http://www.geonames.org/6550801</idno>
+                </place>
+                <place xml:id="ed_oxb_txl_5y">
+                    <placeName type="reg">Memel</placeName>
+                    <idno type="uri">http://www.geonames.org/598098</idno>
+                </place>
+                <place xml:id="ed_m4r_t5z_g2b">
+                    <placeName type="reg">Mentone</placeName>
+                    <idno type="uri">http://www.geonames.org/2994497/menton.html</idno>
+                </place>
+                <place xml:id="ed_rnl_4gj_d2b">
+                    <placeName type="reg">Merseburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2871736/merseburg.html</idno>
+                </place>
+                <place xml:id="ed_tc4_3vm_zcb">
+                    <placeName type="reg">Metz</placeName>
+                    <idno type="uri">http://www.geonames.org/2994160</idno>
+                </place>
+                <place xml:id="ed_g4n_f2r_rdb">
+                    <placeName type="reg">Meuselwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2871437/meuselwitz.html</idno>
+                </place>
+                <place xml:id="ed_pmn_tjr_gz">
+                    <placeName type="reg">Mewe</placeName>
+                    <idno type="uri">http://www.geonames.org/3099127</idno>
+                </place>
+                <place xml:id="ed_db5_nxp_f2b">
+                    <placeName type="reg">Middelburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2750896/middelburg.html</idno>
+                </place>
+                <place xml:id="ed_l4b_52h_tdb">
+                    <placeName type="reg">Milken</placeName>
+                    <idno type="uri">http://www.geonames.org/764719/milki.html</idno>
+                </place>
+                <place xml:id="ed_oyp_ljy_ydb">
+                    <placeName type="reg">Mitau</placeName>
+                    <idno type="uri">http://www.geonames.org/459279/jelgava.html</idno>
+                </place>
+                <place xml:id="ed_zr1_c3n_my">
+                    <placeName type="reg">Mittenort</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/MITORTKO04TE</idno>
+                </place>
+                <place xml:id="ed_ylj_rbv_12b">
+                    <placeName type="reg">Mittweida</placeName>
+                    <idno type="uri">http://www.geonames.org/2870318/mittweida.html</idno>
+                </place>
+                <place xml:id="ed_trv_24g_2z">
+                    <placeName type="reg">Möckern</placeName>
+                    <idno type="uri">http://www.geonames.org/2870278</idno>
+                </place>
+                <place xml:id="ed_lpt_52g_hy">
+                    <placeName type="reg">Möglin</placeName>
+                    <idno type="uri">http://www.geonames.org/2870197</idno>
+                </place>
+                <place xml:id="ed_axg_z4t_sdb">
+                    <placeName type="reg">Mohrungen</placeName>
+                    <idno type="uri">http://www.geonames.org/3091462/morag.html</idno>
+                </place>
+                <place xml:id="ed_wjd_khd_b2b">
+                    <placeName type="reg">Möllendorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2870032/moellendorf.html</idno>
+                </place>
+                <place xml:id="ed_brk_k51_qkb">
+                    <placeName type="reg">Molthainen</placeName>
+                    <idno type="uri">https://www.geonames.org/764438/moltajny.html</idno>
+                </place>
+                <place xml:id="ed_ast_v2c_rhb">
+                    <placeName type="reg">Molthainen</placeName>
+                    <idno type="uri">http://www.geonames.org/764438/moltajny.html</idno>
+                </place>
+                <place xml:id="ed_djt_1nw_22b">
+                    <placeName type="reg">Momehnen</placeName>
+                    <idno type="uri">http://www.geonames.org/764436/momajny.html</idno>
+                </place>
+                <place xml:id="ed_m3r_wgq_rdb">
+                    <placeName type="reg">Monbijou</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/11524568/schloss-monbijou-1703-1959.html</idno>
+                </place>
+                <place xml:id="ed_act_bq1_my">
+                    <placeName type="reg">Moskau</placeName>
+                    <idno type="uri">http://www.geonames.org/524901</idno>
+                </place>
+                <place xml:id="ed_q54_5pw_22b">
+                    <placeName type="reg">Mscislaw</placeName>
+                    <idno type="uri">http://www.geonames.org/624889/mstsislaw.html</idno>
+                </place>
+                <place xml:id="ed_mdb_4hz_ny">
+                    <placeName type="reg">München</placeName>
+                    <idno type="uri">http://www.geonames.org/6940463</idno>
+                </place>
+                <place xml:id="ed_lym_y4l_ddb">
+                    <placeName type="reg">Mława</placeName>
+                    <idno type="uri">http://www.geonames.org/764634/mlawa.html</idno>
+                </place>
+                <place xml:id="ed_okj_snv_vcb">
+                    <placeName type="reg">Nancy</placeName>
+                    <idno type="uri">http://www.geonames.org/2990999/nancy.html</idno>
+                </place>
+                <place xml:id="ed_ycf_kky_3fb">
+                    <placeName type="reg">Natangen</placeName>
+                    <note>historische Landschaft in Ostpreußen, heute zu beiden Seiten der
+                        russisch-polnischen Grenze gelegen</note>
+                </place>
+                <place xml:id="ed_dbg_msp_tdb">
+                    <placeName type="reg">Naugard</placeName>
+                    <idno type="uri">http://www.geonames.org/3090558/nowogard.html</idno>
+                </place>
+                <place xml:id="ed_kwj_vcq_tdb">
+                    <placeName type="reg">Naumburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2866906/naumburg.html</idno>
+                </place>
+                <place xml:id="ed_q2c_rx5_zdb">
+                    <placeName type="reg">Nausitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2866843/nausitz.html</idno>
+                </place>
+                <place xml:id="ed_ljk_2lt_g2b">
+                    <placeName type="reg">Neidenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/764039/nidzica.html</idno>
+                </place>
+                <place xml:id="ed_ush_c5j_tcb">
+                    <placeName type="reg">Neuchâtel</placeName>
+                    <idno type="uri">http://www.geonames.org/2659495</idno>
+                </place>
+                <place xml:id="ed_idj_qrn_zdb">
+                    <placeName type="reg">Neudeck</placeName>
+                    <idno type="uri">http://www.geonames.org/3091092/nejdak.html</idno>
+                </place>
+                <place xml:id="ed_hf4_lst_ncb">
+                    <placeName type="reg">Neudörffchen</placeName>
+                    <idno type="uri">http://www.geonames.org/3090666/nowa-wioska.html</idno>
+                </place>
+                <place xml:id="ed_f1t_sdp_vcb">
+                    <placeName type="reg">Neuhardenberg</placeName>
+                    <idno type="uri">http://www.geonames.org/6493529</idno>
+                </place>
+                <place xml:id="ed_fn1_3mw_mbb">
+                    <placeName type="reg">Neuhoff</placeName>
+                    <idno type="uri">http://www.geonames.org/757101</idno>
+                </place>
+                <place xml:id="ed_fvl_2r1_my">
+                    <placeName type="reg">Neustadt</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/2864058/neustadt-am-ruebenberge.html</idno>
+                </place>
+                <place xml:id="ed_nqd_xg1_hfb">
+                    <placeName type="reg">Neustadt an der Dosse</placeName>
+                    <idno type="uri">http://www.geonames.org/2864079/neustadt-dosse.html</idno>
+                </place>
+                <place xml:id="ed_wrn_yfj_d2b">
+                    <placeName type="reg">Neustrelitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2864005/neustrelitz.html</idno>
+                </place>
+                <place xml:id="ed_ygt_42s_kfb">
+                    <placeName type="reg">Neuweg</placeName>
+                    <idno type="uri">http://www.geonames.org/2863896/neuweg.html</idno>
+                </place>
+                <place xml:id="ed_tgn_cjw_mbb">
+                    <placeName type="reg">Neuwied</placeName>
+                    <idno type="uri">http://www.geonames.org/2863840</idno>
+                </place>
+                <place xml:id="ed_z4n_nz1_tcb">
+                    <placeName type="reg">Nikolaiken</placeName>
+                    <idno type="uri">http://www.geonames.org/764777</idno>
+                </place>
+                <place xml:id="ed_jgb_xhd_nfb">
+                    <placeName type="reg">Nizza</placeName>
+                    <idno type="uri">http://www.geonames.org/2990440/nice.html</idno>
+                </place>
+                <place xml:id="ed_nq3_jyy_4kb">
+                    <placeName type="reg">Nordenburg</placeName>
+                    <idno type="uri">https://www.geonames.org/540275/krylovo.html</idno>
+                </place>
+                <place xml:id="ed_ofx_nwf_cy">
+                    <placeName type="reg">Nordenort</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/NORORTKO04SG</idno>
+                    <note>Kreis Rastenburg</note>
+                </place>
+                <place xml:id="ed_l4l_zlv_mbb">
+                    <placeName type="reg">Nowogrod</placeName>
+                    <idno type="uri">http://www.geonames.org/763600/nowogrod.html</idno>
+                </place>
+                <place xml:id="ed_hmp_fb5_sdb">
+                    <placeName type="reg">Nürnberg</placeName>
+                    <idno type="uri">http://www.geonames.org/7909753/frauenkirche.html</idno>
+                </place>
+                <place xml:id="ed_i2q_cht_c2b">
+                    <placeName type="reg">Ober-Italien</placeName>
+                    <note>der nördliche Teil von Italien, an den südlich Mittelitalien
+                        anschließt</note>
+                </place>
+                <place xml:id="ed_p2t_bpt_sdb">
+                    <placeName type="reg">Oberland</placeName>
+                    <note> historische Landschaft in Ostpreußen, heute in der Woiwodschaft
+                        Ermland-Masuren</note>
+                </place>
+                <place xml:id="ed_e3j_pgd_py">
+                    <placeName type="reg">Odessa</placeName>
+                    <idno type="uri">http://www.geonames.org/698740</idno>
+                </place>
+                <place xml:id="ed_rgx_zf2_ycb">
+                    <placeName type="reg">Ohlau</placeName>
+                    <idno type="uri">http://www.geonames.org/3090205</idno>
+                </place>
+                <place xml:id="ed_i3l_4gp_tdb">
+                    <placeName type="reg">Ohra</placeName>
+                    <idno type="uri">http://www.geonames.org/3089977/orunia.html</idno>
+                </place>
+                <place xml:id="ed_n12_4vl_ddb">
+                    <placeName type="reg">Oletzko</placeName>
+                    <idno type="uri">http://www.geonames.org/763291/olecko.html</idno>
+                </place>
+                <place xml:id="ed_snk_jfp_tdb">
+                    <placeName type="reg">Oliva</placeName>
+                    <idno type="uri">http://www.geonames.org/3090147/oliwa.html</idno>
+                </place>
+                <place xml:id="ed_avp_dry_bz">
+                    <placeName type="reg">Olmütz</placeName>
+                    <idno type="uri">http://www.geonames.org/3069011</idno>
+                </place>
+                <place xml:id="ed_oyr_ysm_cz">
+                    <placeName type="reg">Oranienburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2857129</idno>
+                </place>
+                <place xml:id="ed_xg1_lrl_ddb">
+                    <placeName type="reg">Orléans</placeName>
+                    <idno type="uri">http://www.geonames.org/2989317/orleans.html</idno>
+                </place>
+                <place xml:id="ed_rcv_14h_tbb">
+                    <placeName type="reg">Orlowen</placeName>
+                    <idno type="uri">http://www.geonames.org/763073</idno>
+                </place>
+                <place xml:id="ed_lrr_3m4_vcb">
+                    <placeName type="reg">Ortelsburg</placeName>
+                    <idno type="uri">http://www.geonames.org/757357</idno>
+                </place>
+                <place xml:id="ed_bld_y4q_ybb">
+                    <placeName type="reg">Osnabrück</placeName>
+                    <idno type="uri">http://www.geonames.org/2856883</idno>
+                </place>
+                <place xml:id="ed_w31_blp_tdb">
+                    <placeName type="reg">Ossowez</placeName>
+                    <idno type="uri">http://www.geonames.org/762954/osowiec.html</idno>
+                </place>
+                <place xml:id="ed_ub5_v4k_wcb">
+                    <placeName type="reg">Osterode</placeName>
+                    <idno type="uri">http://www.geonames.org/753630/zawady.html</idno>
+                </place>
+                <place xml:id="ed_stc_3k4_dz">
+                    <placeName type="reg">Österreich</placeName>
+                </place>
+                <place xml:id="ed_uvt_4j4_dz">
+                    <placeName type="reg">Ostpreußen</placeName>
+                    <note>seit dem 18. Jahrhundert Bezeichnung für den östlichsten Teil Preußens;
+                        von 1815 bis 1829 und von 1878 bis 1945 war Ostpreußen der Name der
+                        östlichsten preußischen Provinz; es umfasste einen großen Teil der
+                        historischen Landschaft Preußen</note>
+                </place>
+                <place xml:id="ed_wwp_ncq_rdb">
+                    <placeName type="reg">Ostritz</placeName>
+                    <idno type="uri">http://www.geonames.org/2856205/ostritz.html</idno>
+                </place>
+                <place xml:id="ed_yv2_sxq_rhb">
+                    <placeName type="reg">Ostrolenka</placeName>
+                    <idno type="uri">http://www.geonames.org/7530974/ostroleka.html</idno>
+                </place>
+                <place xml:id="ed_czy_f3t_q2b">
+                    <placeName type="reg">Otten</placeName>
+                    <idno type="uri">https://www.geonames.org/2856132/otten-berg.html</idno>
+                </place>
+                <place xml:id="ed_jwp_j45_22b">
+                    <placeName type="reg">Oxford</placeName>
+                    <idno type="uri">http://www.geonames.org/2640729/oxford.html</idno>
+                </place>
+                <place xml:id="ed_phz_pt3_tdb">
+                    <placeName type="reg">Parchen</placeName>
+                    <idno type="uri">http://www.geonames.org/2855445/parchen.html</idno>
+                </place>
+                <place xml:id="ed_uyx_nvn_my">
+                    <placeName type="reg">Paris</placeName>
+                    <idno type="uri">http://www.geonames.org/2988507</idno>
+                </place>
+                <place xml:id="ed_j3v_gk5_h2b">
+                    <placeName type="reg">Partsch</placeName>
+                    <idno type="uri">http://www.geonames.org/762644/parcz.html</idno>
+                </place>
+                <place xml:id="ed_is2_1kv_22b">
+                    <placeName type="reg">Patkow</placeName>
+                    <idno type="uri">http://www.geonames.org/762574/patkow.html</idno>
+                </place>
+                <place xml:id="ed_exg_3r1_my">
+                    <placeName type="reg">Peisken</placeName>
+                    <idno type="uri">http://www.geonames.org/2855031/peissen.html</idno>
+                </place>
+                <place xml:id="ed_rnb_fth_t2b">
+                    <placeName type="reg">Pentlack</placeName>
+                    <idno type="uri">http://www.geonames.org/553704/kamenka.html</idno>
+                </place>
+                <place xml:id="ed_nd1_xwr_rdb">
+                    <placeName type="reg">Perleberg</placeName>
+                    <idno type="uri">http://www.geonames.org/2854848/perleberg.html</idno>
+                </place>
+                <place xml:id="ed_gb4_3n5_gfb">
+                    <placeName type="reg">Perlin</placeName>
+                    <idno type="uri">https://d-nb.info/gnd/4761984-3</idno>
+                    <note>Nordwest-Mecklenburg</note>
+                </place>
+                <place xml:id="ed_c1m_lqb_hfb">
+                    <placeName type="reg">Peterskirchen</placeName>
+                    <idno type="uri">http://www.geonames.org/2854632/peterskirchen.html</idno>
+                </place>
+                <place xml:id="ed_ns1_s1g_cdb">
+                    <placeName type="reg">Pichomay</placeName>
+                    <note>Schloss</note>
+                </place>
+                <place xml:id="ed_yft_ssj_d2b">
+                    <placeName type="reg">Pierkunowo</placeName>
+                    <idno type="uri">http://www.geonames.org/762292/pierkunowo.html</idno>
+                </place>
+                <place xml:id="ed_ub5_lt3_tdb">
+                    <placeName type="reg">Pietzpuhl</placeName>
+                    <idno type="uri">http://www.geonames.org/2853762/pietzpuhl.html</idno>
+                </place>
+                <place xml:id="ed_x12_zb4_xdb">
+                    <placeName type="reg">Pillau</placeName>
+                    <idno type="uri">http://www.geonames.org/2609906/baltiysk.html</idno>
+                </place>
+                <place xml:id="ed_zwz_5ps_d2b">
+                    <placeName type="reg">Pillkallen</placeName>
+                    <idno type="uri">http://www.geonames.org/565810/dobrovol-sk.html</idno>
+                </place>
+                <place xml:id="ed_czl_bjm_33b">
+                    <placeName type="reg">Pilwe</placeName>
+                    <idno type="uri">https://www.geonames.org/762205/pilwa.html</idno>
+                </place>
+                <place xml:id="ed_rkt_ql3_tcb">
+                    <placeName type="reg">Pirna</placeName>
+                    <idno type="uri">http://www.geonames.org/6550822</idno>
+                </place>
+                <place xml:id="ed_asn_bdq_tdb">
+                    <placeName type="reg">Plagwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2853474/plagwitz.html</idno>
+                </place>
+                <place xml:id="ed_mhh_jp5_c2b">
+                    <placeName type="reg">Plauthen</placeName>
+                    <idno type="uri">http://www.geonames.org/761990/pluty.html</idno>
+                </place>
+                <place xml:id="ed_p25_g1q_f2b">
+                    <placeName type="reg">Podangen</placeName>
+                    <idno type="uri">http://www.geonames.org/596464/padagai.html</idno>
+                </place>
+                <place xml:id="ed_f5m_fxv_mbb">
+                    <placeName type="reg">Polen </placeName>
+                </place>
+                <place xml:id="ed_jxx_gpv_mbb">
+                    <placeName type="reg">Pommern</placeName>
+                    <note>Gebiet des früheren Herzogtums und späteren preußischen Provinz Pommern;
+                        das Gebiet setzt sich aus dem westlich der Oder gelegenen Vorpommern und dem
+                        östlich der Oder gelegenen Hinterpommern zusammen, d östlich an
+                        Hinterpommern anschließende Landschaft bis zur Weichsel wird Pommerellen
+                        genannt</note>
+                </place>
+                <place xml:id="ed_ypq_rnn_scb">
+                    <placeName type="reg">Posen</placeName>
+                    <idno type="uri">http://www.geonames.org/5006323</idno>
+                </place>
+                <place xml:id="ed_n5r_g45_ncb">
+                    <placeName type="reg">Possessern</placeName>
+                    <idno type="uri">http://www.geonames.org/761331</idno>
+                </place>
+                <place xml:id="ed_jbg_kpz_2y">
+                    <placeName type="reg">Potsdam</placeName>
+                    <idno type="uri">http://www.geonames.org/2852458</idno>
+                </place>
+                <place xml:id="ed_uw4_cn1_my">
+                    <placeName type="reg">Prag</placeName>
+                    <idno type="uri">http://www.geonames.org/3067696</idno>
+                </place>
+                <place xml:id="ed_gjy_fkp_tdb">
+                    <placeName type="reg">Prassen</placeName>
+                    <idno type="uri">http://www.geonames.org/761264/prosna.html</idno>
+                </place>
+                <place xml:id="ed_vzx_jdp_tdb">
+                    <placeName type="reg">Prenzlau</placeName>
+                    <idno type="uri">http://www.geonames.org/6550670/prenzlau.html</idno>
+                </place>
+                <place xml:id="ed_qxq_q3g_2z">
+                    <placeName type="reg">Preßburg</placeName>
+                    <idno type="uri">http://www.geonames.org/3060972</idno>
+                </place>
+                <place xml:id="ed_zg3_qps_d2b">
+                    <placeName type="reg">Preußisch Eylau</placeName>
+                    <idno type="uri">http://www.geonames.org/579760/bagrationovsk.html</idno>
+                </place>
+                <place xml:id="ed_jnz_jhp_tdb">
+                    <placeName type="reg">Preußisch-Holland</placeName>
+                    <idno type="uri">http://www.geonames.org/3089392/paslek.html</idno>
+                </place>
+                <place xml:id="ed_o23_l11_fy">
+                    <placeName type="reg">Preyl</placeName>
+                    <idno type="uri">http://www.geonames.org/543728</idno>
+                </place>
+                <place xml:id="ed_ohv_kf2_gy">
+                    <placeName xmlns:tei="http://www.tei-c.org/ns/1.0" type="reg"
+                        >Pristanien</placeName>
+                    <idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="uri"
+                        >http://www.geonames.org/761011</idno>
+                </place>
+                <place xml:id="ed_i5b_gd5_zdb">
+                    <placeName type="reg">Prökelwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/7535887/prakwice.html</idno>
+                </place>
+                <place xml:id="ed_a3p_lp5_zdb">
+                    <placeName type="reg">Prostken</placeName>
+                    <idno type="uri">http://www.geonames.org/761262/prostki.html</idno>
+                </place>
+                <place xml:id="ed_gjk_bpl_ddb">
+                    <placeName type="reg">Przasnitz</placeName>
+                    <idno type="uri">http://www.geonames.org/761218/przasnysz.html</idno>
+                </place>
+                <place xml:id="ed_l5b_sjt_c2b">
+                    <placeName type="reg">Puschkeiten</placeName>
+                    <idno type="uri">http://www.geonames.org/825819/sosnovka.html</idno>
+                </place>
+                <place xml:id="ed_s3m_fgk_d2b">
+                    <placeName type="reg">Putbus</placeName>
+                    <idno type="uri">http://www.geonames.org/6550733/putbus.html</idno>
+                </place>
+                <place xml:id="ed_nff_jb3_tcb">
+                    <placeName type="reg">Quanditten</placeName>
+                    <idno type="uri">http://www.geonames.org/2609897/sinyavino.html</idno>
+                </place>
+                <place xml:id="ed_fgh_ffg_hy">
+                    <placeName type="reg">Quappendorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2851508</idno>
+                </place>
+                <place xml:id="ed_xpm_qwr_rdb">
+                    <placeName type="reg">Quedlinburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2851465/quedlinburg.html</idno>
+                </place>
+                <place xml:id="ed_rxc_wgg_hy">
+                    <placeName type="reg">Quilitz</placeName>
+                    <idno type="uri"> http://www.geonames.org/2851336</idno>
+                </place>
+                <place xml:id="ed_ehn_vv2_g1b">
+                    <placeName type="reg">Quittainen</placeName>
+                    <idno type="uri">http://www.geonames.org/3094061/kwitajny.html</idno>
+                </place>
+                <place xml:id="ed_whp_f4q_rdb">
+                    <placeName type="reg">Ragnit</placeName>
+                    <idno type="uri">http://www.geonames.org/522742/neman.html</idno>
+                </place>
+                <place xml:id="ed_cv3_gq2_vz">
+                    <placeName type="reg">Ramiona</placeName>
+                    <idno type="uri">http://www.geonames.org/760631/ramiona.html</idno>
+                </place>
+                <place xml:id="ed_tnl_sgk_gy">
+                    <placeName type="reg">Rastenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/769274</idno>
+                </place>
+                <place xml:id="ed_sny_fkh_h2b">
+                    <placeName type="reg">Rathenow</placeName>
+                    <idno type="uri">http://www.geonames.org/2850213/rathenow.html</idno>
+                </place>
+                <place xml:id="ed_fgc_prp_vcb">
+                    <placeName type="reg">Ratzken</placeName>
+                    <idno type="uri">http://www.geonames.org/3074970/hradec.html</idno>
+                </place>
+                <place xml:id="ed_omp_ls5_vcb">
+                    <placeName type="reg">Rautenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/760471/rogajny.html</idno>
+                </place>
+                <place xml:id="ed_f4m_pr1_tcb">
+                    <placeName type="reg">Rdzawen</placeName>
+                    <idno type="uri">http://www.geonames.org/760569</idno>
+                </place>
+                <place xml:id="ed_i1v_z4t_g2b">
+                    <placeName type="reg">Reddenau</placeName>
+                    <idno type="uri">http://www.geonames.org/760475/rodnowo.html</idno>
+                </place>
+                <place xml:id="ed_udz_kkz_g2b">
+                    <placeName type="reg">Regensburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2849483/regensburg.html</idno>
+                </place>
+                <place xml:id="ed_d3m_2zz_ncb">
+                    <placeName type="reg">Regitten</placeName>
+                    <idno type="uri">http://www.geonames.org/3087113</idno>
+                </place>
+                <place xml:id="ed_kby_wb5_gfb">
+                    <placeName type="reg">Rehme</placeName>
+                    <idno type="uri">http://www.geonames.org/2849280/rehme.html</idno>
+                </place>
+                <place xml:id="ed_ugy_1pg_hy">
+                    <placeName type="reg">Rehsau</placeName>
+                    <idno type="uri">http://www.geonames.org/759864</idno>
+                </place>
+                <place xml:id="ed_cjg_3ts_lcb">
+                    <placeName type="reg">Reichenbach</placeName>
+                    <idno type="uri">http://www.geonames.org/3086557/rychliki.html</idno>
+                </place>
+                <place xml:id="ed_wgk_lxb_ydb">
+                    <placeName type="reg">Reichertswalde</placeName>
+                    <idno type="uri">http://www.geonames.org/3092263/markowo.html</idno>
+                </place>
+                <place xml:id="ed_rq3_ll3_tcb">
+                    <placeName type="reg">Reuss, Herrschaft</placeName>
+                </place>
+                <place xml:id="ed_m1j_s4p_tdb">
+                    <placeName type="reg">Reußen</placeName>
+                    <idno type="uri">http://www.geonames.org/759976/ruska-wies.html</idno>
+                </place>
+                <place xml:id="ed_qw4_wyj_gy">
+                    <placeName type="reg">Rhein</placeName>
+                    <idno type="uri">http://www.geonames.org/759839</idno>
+                </place>
+                <place xml:id="ed_vgy_q21_hy">
+                    <placeName type="reg">Rheinsberg</placeName>
+                    <idno type="uri">http://www.geonames.org/2847612</idno>
+                </place>
+                <place xml:id="ed_oyb_pwh_tbb">
+                    <placeName type="reg">Ribben</placeName>
+                    <idno type="uri">http://www.geonames.org/759892</idno>
+                </place>
+                <place xml:id="ed_irf_njy_ydb">
+                    <placeName type="reg">Riga</placeName>
+                    <idno type="uri">http://www.geonames.org/456172/riga.html</idno>
+                </place>
+                <place xml:id="ed_ip1_5vz_g2b">
+                    <placeName type="reg">Riola</placeName>
+                    <idno type="uri">http://www.geonames.org/3169339/riola.html</idno>
+                </place>
+                <place xml:id="ed_lrc_5l4_s3b">
+                    <placeName type="reg">Rogäsen</placeName>
+                    <idno type="uri">https://www.geonames.org/2845887/rogaesen.html</idno>
+                </place>
+                <place xml:id="ed_qbt_z5c_gy">
+                    <placeName type="reg">Rohrbeck</placeName>
+                    <idno type="uri">http://www.geonames.org/2845670</idno>
+                </place>
+                <place xml:id="ed_rq3_lgg_hy">
+                    <placeName type="reg">Rom</placeName>
+                    <idno type="uri">http://www.geonames.org/3169070</idno>
+                </place>
+                <place xml:id="ed_agv_wkj_z1b">
+                    <placeName type="reg">Rominten</placeName>
+                    <idno type="uri">http://www.geonames.org/542306</idno>
+                </place>
+                <place xml:id="ed_jpk_w4f_cy">
+                    <placeName type="reg">Rosengarten</placeName>
+                    <idno type="uri">http://www.geonames.org/760716</idno>
+                </place>
+                <place xml:id="ed_jp5_cdg_h1b">
+                    <placeName type="reg">Rosenstein</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/ROSEINKO04TG</idno>
+                    <note>Kreis Angerburg</note>
+                </place>
+                <place xml:id="ed_svx_5ql_ddb">
+                    <placeName type="reg">Roßbach</placeName>
+                    <idno type="uri">http://www.geonames.org/2844831/rossbach.html</idno>
+                </place>
+                <place xml:id="ed_ynm_2zv_scb">
+                    <placeName type="reg">Rössel</placeName>
+                    <idno type="uri">http://www.geonames.org/760488</idno>
+                </place>
+                <place xml:id="ed_y2j_yll_xdb">
+                    <placeName type="reg">Roßleben</placeName>
+                    <idno type="uri">http://www.geonames.org/2844651/rossleben.html</idno>
+                </place>
+                <place xml:id="ed_sps_kcb_hfb">
+                    <placeName type="reg">Rothenmoor</placeName>
+                    <idno type="uri">http://www.geonames.org/2843996/rothenmoor.html</idno>
+                </place>
+                <place xml:id="ed_cwc_tql_ddb">
+                    <placeName type="reg">Rothnaußlitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2843887/rothnausslitz.html</idno>
+                </place>
+                <place xml:id="ed_cf4_hb5_sdb">
+                    <placeName type="reg">Röttgen</placeName>
+                    <idno type="uri">http://www.geonames.org/2850224/rath.html</idno>
+                </place>
+                <place xml:id="ed_zlz_ryn_my">
+                    <placeName type="reg">Rouen</placeName>
+                    <idno type="uri">http://www.geonames.org/2982652</idno>
+                </place>
+                <place xml:id="ed_of3_cmg_hy">
+                    <placeName type="reg">Rüdersdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2843408</idno>
+                </place>
+                <place xml:id="ed_gff_dts_d2b">
+                    <placeName type="reg">Ründtken</placeName>
+                </place>
+                <place xml:id="ed_uxr_bxq_bz">
+                    <placeName type="reg">Ruppin</placeName>
+                    <idno type="uri">http://www.geonames.org/2864276</idno>
+                </place>
+                <place xml:id="ed_iky_35l_cz">
+                    <placeName type="reg">Russland</placeName>
+                </place>
+                <place xml:id="ed_d31_sqv_scb">
+                    <placeName type="reg">Rydzewen</placeName>
+                    <idno type="uri">http://www.geonames.org/759869</idno>
+                </place>
+                <place xml:id="ed_ffm_4qs_d2b">
+                    <placeName type="reg">Saalfeld</placeName>
+                    <idno type="uri">http://www.geonames.org/3080757/zalewo.html</idno>
+                </place>
+                <place xml:id="ed_plp_g25_22b">
+                    <placeName type="reg">Saarlouis</placeName>
+                    <idno type="uri">http://www.geonames.org/2842632/saarlouis.html</idno>
+                </place>
+                <place xml:id="ed_p2v_pc3_ycb">
+                    <placeName type="reg">Sachsen, Königreich</placeName>
+                </place>
+                <place xml:id="ed_arc_xcq_tdb">
+                    <placeName type="reg">Sagan, Herzogtum</placeName>
+                </place>
+                <place xml:id="ed_bb4_1pv_g2b">
+                    <placeName type="reg">Salzburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2766824/salzburg.html</idno>
+                </place>
+                <place xml:id="ed_pkw_hky_3fb">
+                    <placeName type="reg">Samland</placeName>
+                    <note>Halbinsel in der östlichen Ostsee; westlicher Teil des nördlichen
+                        Ostpreußens </note>
+                </place>
+                <place xml:id="ed_dxb_zdf_4y">
+                    <placeName type="reg">Sanditten</placeName>
+                    <idno type="uri">http://www.geonames.org/533284</idno>
+                </place>
+                <place xml:id="ed_hgx_f1v_sy">
+                    <placeName type="reg">Sanssouci</placeName>
+                    <idno type="uri">http://www.geonames.org/6295638</idno>
+                </place>
+                <place xml:id="ed_vly_2ts_d2b">
+                    <placeName type="reg">Sassen</placeName>
+                    <idno type="uri">https://de.wikipedia.org/wiki/Sassen_(Gau)</idno>
+                    <note>Kreis Mohrungen</note>
+                </place>
+                <place xml:id="ed_ofb_m4r_gbb">
+                    <placeName type="reg">Schaken</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/11549430/nekrassowo-kaliningrad-gurjewsk.html</idno>
+                </place>
+                <place xml:id="ed_afs_5pf_hy">
+                    <placeName type="reg">Schillgallen</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/HOCNENKO05RE</idno>
+                    <note>Kreis Heidekrug</note>
+                </place>
+                <place xml:id="ed_u5p_w3p_tdb">
+                    <placeName type="reg">Schippenbeil</placeName>
+                    <idno type="uri">http://www.geonames.org/759482/sepopol.html</idno>
+                </place>
+                <place xml:id="ed_tjn_3rc_py">
+                    <placeName type="reg">Schlesien</placeName>
+                    <note>Region beiderseits des Ober- und Mittellaufs der Oder, erstreckt sich im
+                        Süden entlang der Sudeten und Beskiden; ein kleiner Teil im Westen der
+                        früheren preußischen Provinz Schlesien (Niederschlesien) gehört heute zu
+                        Deutschland, der südliche Teil (Oberschlesien) zu Tschechien</note>
+                </place>
+                <place xml:id="ed_lmg_pbh_ldb">
+                    <placeName type="reg">Schleswig</placeName>
+                    <idno type="uri">http://www.geonames.org/2838634/schleswig.html</idno>
+                </place>
+                <place xml:id="ed_ijp_zjc_gy">
+                    <placeName type="reg">Schlobitten</placeName>
+                    <idno type="uri">http://www.geonames.org/3085553</idno>
+                </place>
+                <place xml:id="ed_c3f_wxz_g1b">
+                    <placeName type="reg">Schlodien</placeName>
+                    <idno type="uri">http://www.geonames.org/3099333</idno>
+                </place>
+                <place xml:id="ed_m5s_zsj_kfb">
+                    <placeName type="reg">Schmerberg</placeName>
+                    <idno type="uri">http://gov.genealogy.net/object_327944</idno>
+                    <note>Kreis Labiau</note>
+                </place>
+                <place xml:id="ed_vkn_3my_bz">
+                    <placeName type="reg">Schmirsitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3065728</idno>
+                </place>
+                <place xml:id="ed_z2w_q2s_kfb">
+                    <placeName type="reg">Schönberg</placeName>
+                    <idno type="uri">http://www.geonames.org/2836994/schoenberg.html</idno>
+                </place>
+                <place xml:id="ed_hnh_45t_g2b">
+                    <placeName type="reg">Schönbruch</placeName>
+                    <idno type="uri">http://www.geonames.org/494193/shirokoye.html</idno>
+                </place>
+                <place xml:id="ed_bjj_lm1_dy">
+                    <placeName type="reg">Schönebeck</placeName>
+                    <idno type="uri">http://www.geonames.org/2836809</idno>
+                </place>
+                <place xml:id="ed_tcl_1mg_hy">
+                    <placeName type="reg">Schöneiche</placeName>
+                    <idno type="uri">http://www.geonames.org/2836746</idno>
+                </place>
+                <place xml:id="ed_rjw_yx3_tdb">
+                    <placeName type="reg">Schönermark</placeName>
+                    <idno type="uri">http://www.geonames.org/2836697/schoenermark.html</idno>
+                </place>
+                <place xml:id="ed_nwt_jdz_bz">
+                    <placeName type="reg">Schönhausen</placeName>
+                    <idno type="uri">http://www.geonames.org/2836587</idno>
+                </place>
+                <place xml:id="ed_wys_ccc_5bb">
+                    <placeName type="reg">Schönwies</placeName>
+                    <idno type="uri">http://www.geonames.org/7872583</idno>
+                </place>
+                <place xml:id="ed_e3l_2zw_12b">
+                    <placeName type="reg">Schrengen</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/SCHGENKO04PC</idno>
+                    <note>Woiwodschaft Ermland-Masuren</note>
+                </place>
+                <place xml:id="ed_ocm_scb_hfb">
+                    <placeName type="reg">Schwarzach</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/2765495/schwarzach-im-pongau.html</idno>
+                </place>
+                <place xml:id="ed_m1k_nh4_dz">
+                    <placeName type="reg">Schweden</placeName>
+                </place>
+                <place xml:id="ed_kzc_bsy_bz">
+                    <placeName type="reg">Schwedt</placeName>
+                    <idno type="uri">http://www.geonames.org/2834629</idno>
+                </place>
+                <place xml:id="ed_m4h_t23_ycb">
+                    <placeName type="reg">Schweidnitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3084093</idno>
+                </place>
+                <place xml:id="ed_w4s_1pn_s3b">
+                    <placeName type="reg">Schweigsten</placeName>
+                    <idno type="uri">https://www.geonames.org/594072/sveksna.html</idno>
+                </place>
+                <place xml:id="ed_opm_vwd_b2b">
+                    <placeName type="reg">Schweiz</placeName>
+                </place>
+                <place xml:id="ed_g2l_jp5_22b">
+                    <placeName type="reg">Schwerin</placeName>
+                    <idno type="uri">http://www.geonames.org/2834282/schwerin.html</idno>
+                </place>
+                <place xml:id="ed_rwj_svl_gfb">
+                    <placeName type="reg">Schwinkendorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2834165/schwinkendorf.html</idno>
+                </place>
+                <place xml:id="ed_mxw_c1k_gy">
+                    <placeName xmlns:tei="http://www.tei-c.org/ns/1.0" type="reg"
+                        >Sdorkowen</placeName>
+                    <idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="uri"
+                        >http://www.geonames.org/757234</idno>
+                </place>
+                <place xml:id="ed_mzz_jfr_gbb">
+                    <placeName type="reg">Sedan</placeName>
+                    <idno type="uri">http://www.geonames.org/2975349</idno>
+                </place>
+                <place xml:id="ed_gvm_jd1_4cb">
+                    <placeName type="reg">Seegertswalde</placeName>
+                    <idno type="uri">http://www.geonames.org/3080870/zajezierze.html</idno>
+                </place>
+                <place xml:id="ed_qcj_1qf_hy">
+                    <placeName type="reg">Seehesten</placeName>
+                    <idno type="uri">http://www.geonames.org/757319</idno>
+                </place>
+                <place xml:id="ed_amz_114_zdb">
+                    <placeName type="reg">Seehof Steinort</placeName>
+                    <note>Vorwerk östlich von Steinort</note>
+                </place>
+                <place xml:id="ed_o2w_tjt_c2b">
+                    <placeName type="reg">Sehmen</placeName>
+                    <idno type="uri">http://www.geonames.org/491082/soldatovo.html</idno>
+                </place>
+                <place xml:id="ed_ngj_jlt_g2b">
+                    <placeName type="reg">Sensburg</placeName>
+                    <idno type="uri">http://www.geonames.org/764312/mragowo.html</idno>
+                </place>
+                <place xml:id="ed_hrb_hc2_gy">
+                    <placeName type="reg">Serwillen</placeName>
+                    <idno type="uri">http://www.geonames.org/757738</idno>
+                </place>
+                <place xml:id="ed_wy5_tm5_c2b">
+                    <placeName type="reg">Sierhagen</placeName>
+                    <idno type="uri">http://www.geonames.org/2832341/sierhagen.html</idno>
+                </place>
+                <place xml:id="ed_x4m_zcv_zdb">
+                    <placeName type="reg">Skandau</placeName>
+                    <idno type="uri">http://www.geonames.org/759161/skandawa.html</idno>
+                </place>
+                <place xml:id="ed_bst_q5z_bcb">
+                    <placeName type="reg">Skierniewice</placeName>
+                    <idno type="uri">http://www.geonames.org/759123</idno>
+                </place>
+                <place xml:id="ed_bgn_3gz_bcb">
+                    <placeName type="reg">Smolany</placeName>
+                    <idno type="uri">http://www.geonames.org/758797</idno>
+                </place>
+                <place xml:id="ed_gky_bnl_ddb">
+                    <placeName type="reg">Sobiechen</placeName>
+                    <idno type="uri">http://www.geonames.org/758720/sobiechy.html</idno>
+                </place>
+                <place xml:id="ed_i55_csm_zcb">
+                    <placeName type="reg">Soissons</placeName>
+                    <idno type="uri">http://www.geonames.org/2974389</idno>
+                </place>
+                <place xml:id="ed_jfp_rr4_vcb">
+                    <placeName type="reg">Soldau</placeName>
+                    <idno type="uri">http://www.geonames.org/772748/dzialdowo.html</idno>
+                </place>
+                <place xml:id="ed_zmh_pch_ldb">
+                    <placeName type="reg">Solingen</placeName>
+                    <idno type="uri">http://www.geonames.org/2831580/solingen.html</idno>
+                </place>
+                <place xml:id="ed_o5t_yt4_dz">
+                    <placeName type="reg">Sonnenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/3085520</idno>
+                </place>
+                <place xml:id="ed_ozh_rfc_tcb">
+                    <placeName type="reg">Sorquitten</placeName>
+                    <idno type="uri">http://www.geonames.org/758567</idno>
+                </place>
+                <place xml:id="ed_bqz_1y1_fz">
+                    <placeName type="reg">Spandau</placeName>
+                    <idno type="uri">http://www.geonames.org/7290252</idno>
+                </place>
+                <place xml:id="ed_ujt_zcq_tdb">
+                    <placeName type="reg">Sprottau</placeName>
+                    <idno type="uri">http://www.geonames.org/3083632/szprotawa.html</idno>
+                </place>
+                <place xml:id="ed_hkh_2bq_tdb">
+                    <placeName type="reg">St. Denis</placeName>
+                    <idno type="uri">http://www.geonames.org/2980916/saint-denis.html</idno>
+                </place>
+                <place xml:id="ed_wqc_khs_bdb">
+                    <placeName type="reg">St. Helena</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/3370751/saint-helena-ascension-and-tristan-da-cunha.html</idno>
+                </place>
+                <place xml:id="ed_jzd_fnv_h2b">
+                    <placeName type="reg">St. Moritz</placeName>
+                    <idno type="uri">http://www.geonames.org/2658813/st-moritz.html</idno>
+                </place>
+                <place xml:id="ed_qvp_nnz_2y">
+                    <placeName type="reg">St. Petersburg</placeName>
+                    <placeName type="alt">Petersburg</placeName>
+                    <idno type="uri">http://www.geonames.org/498817</idno>
+                </place>
+                <place xml:id="ed_nst_ywr_rdb">
+                    <placeName type="reg">Stade</placeName>
+                    <idno type="uri">http://www.geonames.org/2829901/stade.html</idno>
+                </place>
+                <place xml:id="ed_abx_dyh_4cb">
+                    <placeName type="reg">Stalingrad</placeName>
+                    <idno type="uri">http://www.geonames.org/472755</idno>
+                </place>
+                <place xml:id="ed_tqh_bps_d2b">
+                    <placeName type="reg">Stallupönen</placeName>
+                    <idno type="uri">http://www.geonames.org/522508/nesterov.html</idno>
+                </place>
+                <place xml:id="ed_ysp_f5h_wz">
+                    <placeName type="reg">Stargard</placeName>
+                    <idno type="uri">http://www.geonames.org/3084841/stargard-gubinski.html</idno>
+                </place>
+                <place xml:id="ed_qnv_qmw_mbb">
+                    <placeName type="reg">Staswin</placeName>
+                    <idno type="uri">http://www.geonames.org/758255/staswiny.html</idno>
+                </place>
+                <place xml:id="ed_gcr_vcg_hy">
+                    <placeName type="reg">Statzen</placeName>
+                    <idno type="uri">http://www.geonames.org/758454</idno>
+                </place>
+                <place xml:id="ed_xzt_112_gy">
+                    <placeName type="reg">Stawisken</placeName>
+                    <idno type="uri">http://www.geonames.org/3084719</idno>
+                </place>
+                <place xml:id="ed_nkz_b12_gy">
+                    <placeName type="reg">Stawken</placeName>
+                    <idno type="uri">http://www.geonames.org/758229</idno>
+                </place>
+                <place xml:id="ed_bjn_3nh_tbb">
+                    <placeName type="reg">Steinhausen </placeName>
+                    <idno type="uri">http://www.geonames.org/2828009</idno>
+                </place>
+                <place xml:id="ed_pxt_cnh_1y">
+                    <placeName type="reg">Steinort</placeName>
+                    <idno type="uri">http://www.geonames.org/757234</idno>
+                </place>
+                <place xml:id="ed_sxm_51z_bz">
+                    <placeName type="reg">Stettin</placeName>
+                    <idno type="uri">http://www.geonames.org/11495656</idno>
+                </place>
+                <place xml:id="ed_xjg_d12_gy">
+                    <placeName type="reg">Stobben</placeName>
+                    <idno type="uri">http://www.geonames.org/761981</idno>
+                </place>
+                <place xml:id="ed_xhj_5b4_xdb">
+                    <placeName type="reg">Stockholm</placeName>
+                    <idno type="uri">http://www.geonames.org/2673730/stockholm.html</idno>
+                </place>
+                <place xml:id="ed_mgz_gfp_tdb">
+                    <placeName type="reg">Stolp</placeName>
+                    <idno type="uri">http://www.geonames.org/3085450/slupsk.html</idno>
+                </place>
+                <place xml:id="ed_brv_kpb_tcb">
+                    <placeName type="reg">Stolpe</placeName>
+                    <idno type="uri">http://www.geonames.org/3085450</idno>
+                </place>
+                <place xml:id="ed_wky_11b_kz">
+                    <placeName type="reg">Stonsdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/3084987</idno>
+                </place>
+                <place xml:id="ed_r2g_drk_wcb">
+                    <placeName type="reg">Stradauen</placeName>
+                    <idno type="uri">http://www.geonames.org/758096</idno>
+                </place>
+                <place xml:id="ed_y5t_jsq_rdb">
+                    <placeName type="reg">Stralsund</placeName>
+                    <idno type="uri">http://www.geonames.org/2826287/stralsund.html</idno>
+                </place>
+                <place xml:id="ed_ahd_czt_q2b">
+                    <placeName type="reg">Strasburg</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/8854940/hotel-apts-adagio-apartstrasbourg-kleber.html</idno>
+                </place>
+                <place xml:id="ed_yf5_3zl_cz">
+                    <placeName type="reg">Straßburg</placeName>
+                    <idno type="uri">http://www.geonames.org/9172599</idno>
+                </place>
+                <place xml:id="ed_mbv_pyz_ncb">
+                    <placeName type="reg">Strittkeim</placeName>
+                    <idno type="uri">http://www.geonames.org/825291/chkalovsk.html</idno>
+                </place>
+                <place xml:id="ed_fcn_f3q_42b">
+                    <placeName type="reg">Stullichen</placeName>
+                    <idno type="uri">http://www.geonames.org/757919/stulichy.html</idno>
+                </place>
+                <place xml:id="ed_vbb_thj_w2b">
+                    <placeName type="reg">Stuttgart</placeName>
+                    <idno type="uri">http://www.geonames.org/2825297/stuttgart.html</idno>
+                </place>
+                <place xml:id="ed_crt_w2p_tdb">
+                    <placeName type="reg">Suckow</placeName>
+                    <idno type="uri">http://www.geonames.org/2825248/suckow.html</idno>
+                </place>
+                <place xml:id="ed_jhf_mxx_m2b">
+                    <placeName type="reg">Supplinburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2824602/suepplingenburg.html</idno>
+                </place>
+                <place xml:id="ed_tsb_wjy_ydb">
+                    <placeName type="reg">Szamaiten</placeName>
+                    <placeName type="alt">Samaiten</placeName>
+                    <note> Landschaft zwischen Kurland, der Ostsee, Preußen und Litauen</note>
+                </place>
+                <place xml:id="ed_ryp_3bt_fkb">
+                    <placeName type="reg">Szczuczyn</placeName>
+                    <idno type="uri">https://www.geonames.org/757386/szczuczyn.html</idno>
+                </place>
+                <place xml:id="ed_shm_t2f_j1b">
+                    <placeName type="reg">Szittkehmen</placeName>
+                    <idno type="uri">http://www.geonames.org/752960/zytkiejmy.html</idno>
+                </place>
+                <place xml:id="ed_hpn_5kj_gy">
+                    <placeName type="reg">Szozin?</placeName>
+                </place>
+                <place xml:id="ed_s3k_b12_gy">
+                    <placeName type="reg">Taberlack</placeName>
+                    <idno type="uri">http://www.geonames.org/757052</idno>
+                </place>
+                <place xml:id="ed_r51_fnl_ddb">
+                    <placeName type="reg">Tapiau</placeName>
+                    <idno type="uri">http://www.geonames.org/557710/gvardeysk.html</idno>
+                </place>
+                <place xml:id="ed_kyn_wjg_5gb">
+                    <placeName type="reg">Tarputschen</placeName>
+                    <idno type="uri">http://www.geonames.org/826006/luzhki.html</idno>
+                </place>
+                <place xml:id="ed_k13_kxp_vcb">
+                    <placeName type="reg">Tauroggen</placeName>
+                    <idno type="uri">http://www.geonames.org/593959/taurage.html</idno>
+                </place>
+                <place xml:id="ed_mys_v4x_y2b">
+                    <placeName type="reg">Tempelberg</placeName>
+                    <idno type="uri">http://www.geonames.org/2827965/steinhoefel.html</idno>
+                    <note>heute Ortsteil von Steinhöfel</note>
+                </place>
+                <place xml:id="ed_ww1_zyz_2y">
+                    <placeName type="reg">Tenkitten</placeName>
+                    <idno type="uri">http://www.geonames.org/2609906</idno>
+                </place>
+                <place xml:id="ed_f43_1qk_wcb">
+                    <placeName type="reg">Teplitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3064288</idno>
+                </place>
+                <place xml:id="ed_nmq_tgt_zdb">
+                    <placeName type="reg">Tharau</placeName>
+                    <idno type="uri">http://www.geonames.org/473240/vladimirovo.html</idno>
+                </place>
+                <place xml:id="ed_sz3_kqp_tcb">
+                    <placeName type="reg">Thiergarten</placeName>
+                    <idno type="uri">http://www.geonames.org/756749</idno>
+                </place>
+                <place xml:id="ed_mmt_pcp_tcb">
+                    <placeName type="reg">Thorn</placeName>
+                    <idno type="uri">http://www.geonames.org/3083271</idno>
+                </place>
+                <place xml:id="ed_jyd_ryl_5y">
+                    <placeName type="reg">Tilse</placeName>
+                    <idno type="uri">http://www.geonames.org/479957</idno>
+                </place>
+                <place xml:id="ed_olw_h3d_py">
+                    <placeName type="reg">Tilsit</placeName>
+                    <idno type="uri">http://www.geonames.org/490068</idno>
+                </place>
+                <place xml:id="ed_ebg_trd_py">
+                    <placeName type="reg">Tolks </placeName>
+                    <idno type="uri">http://www.geonames.org/776337</idno>
+                </place>
+                <place xml:id="ed_ybf_ztv_h2b">
+                    <placeName type="reg">Tolksdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/756895/tolkiny.html</idno>
+                </place>
+                <place xml:id="ed_ks5_fhg_2z">
+                    <placeName type="reg">Torgau</placeName>
+                    <idno type="uri">http://www.geonames.org/6551134</idno>
+                </place>
+                <place xml:id="ed_exj_4f3_ycb">
+                    <placeName type="reg">Trachenberg</placeName>
+                    <idno type="uri">http://www.geonames.org/3080058</idno>
+                </place>
+                <place xml:id="ed_efn_v5l_wcb">
+                    <placeName type="reg">Trakehnen</placeName>
+                    <idno type="uri">http://www.geonames.org/468687</idno>
+                </place>
+                <place xml:id="ed_zmm_r4t_sdb">
+                    <placeName type="reg">Travemünde</placeName>
+                    <idno type="uri">http://www.geonames.org/2821480/travemuende.html</idno>
+                </place>
+                <place xml:id="ed_sdx_gsn_fz">
+                    <placeName type="reg">Trebnitz</placeName>
+                    <idno type="uri">http://www.geonames.org/2821428/trebnitz.html</idno>
+                </place>
+                <place xml:id="ed_r3l_c2p_tdb">
+                    <placeName type="reg">Treptow</placeName>
+                    <idno type="uri">http://www.geonames.org/3083145/trzebiatow.html</idno>
+                </place>
+                <place xml:id="ed_w5t_y5b_cdb">
+                    <placeName type="reg">Trier</placeName>
+                    <idno type="uri">http://www.geonames.org/2821164/trier.html</idno>
+                </place>
+                <place xml:id="ed_ayg_phj_w2b">
+                    <placeName type="reg">Triesdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/2821151/triesdorf.html</idno>
+                </place>
+                <place xml:id="ed_v51_tqy_bz">
+                    <placeName type="reg">Troppau</placeName>
+                    <idno type="uri">http://www.geonames.org/10858517</idno>
+                </place>
+                <place xml:id="ed_kwx_p2b_ycb">
+                    <placeName type="reg">Trzetzacken</placeName>
+                </place>
+                <place xml:id="ed_n3v_bk4_dz">
+                    <placeName type="reg">Turin</placeName>
+                    <idno type="uri">http://www.geonames.org/3165523</idno>
+                </place>
+                <place xml:id="ed_mq2_ww5_h2b">
+                    <placeName type="reg">Ulrichshusen</placeName>
+                    <idno type="uri">http://www.geonames.org/2820222/ulrichshusen.html</idno>
+                </place>
+                <place xml:id="ed_h1w_jc2_gy">
+                    <placeName type="reg">Upalten</placeName>
+                    <idno type="uri">http://www.geonames.org/756326</idno>
+                </place>
+                <place xml:id="ed_ysc_dvp_tdb">
+                    <placeName type="reg">Utrecht</placeName>
+                    <idno type="uri">http://www.geonames.org/2745912/utrecht.html</idno>
+                </place>
+                <place xml:id="ed_evs_cbj_d2b">
+                    <placeName type="reg">Vahnerow</placeName>
+                    <idno type="uri">http://www.geonames.org/7533059/gryfice.html</idno>
+                </place>
+                <place xml:id="ed_iw2_2wh_tbb">
+                    <placeName type="reg">Varlar </placeName>
+                    <idno type="uri">http://www.geonames.org/3206079/schloss-varlar.html</idno>
+                </place>
+                <place xml:id="ed_wjr_m15_22b">
+                    <placeName type="reg">Verdun</placeName>
+                    <idno type="uri">http://www.geonames.org/2969958/verdun.html</idno>
+                </place>
+                <place xml:id="ed_pvh_k2d_gy">
+                    <placeName type="reg">Versailles</placeName>
+                    <idno type="uri">http://www.geonames.org/2969679</idno>
+                </place>
+                <place xml:id="ed_k1q_ngs_d2b">
+                    <placeName type="reg">Voigtstedt</placeName>
+                    <idno type="uri">http://www.geonames.org/2816734/voigtstedt.html</idno>
+                </place>
+                <place xml:id="ed_jx5_hmv_mbb">
+                    <placeName type="reg">Vorpommern</placeName>
+                    <note>westlich der Oder gelegener Teil der Provinz Pommern</note>
+                </place>
+                <place xml:id="ed_x5f_l2q_tdb">
+                    <placeName type="reg">Waldau</placeName>
+                    <idno type="uri">http://www.geonames.org/2815170/waldau.html</idno>
+                </place>
+                <place xml:id="ed_lry_bmw_h2b">
+                    <placeName type="reg">Waldburg</placeName>
+                    <idno type="uri">http://www.geonames.org/767872/kowalik.html</idno>
+                </place>
+                <place xml:id="ed_q4g_lf5_sdb">
+                    <placeName type="reg">Waldheim</placeName>
+                    <idno type="uri">http://www.geonames.org/2814956/waldheim.html</idno>
+                </place>
+                <place xml:id="ed_mw3_2yq_rhb">
+                    <placeName type="reg">Wallendorf</placeName>
+                    <note>Krs. Malga</note>
+                </place>
+                <place xml:id="ed_swl_gtb_hkb">
+                    <placeName type="reg">Wandlacken</placeName>
+                    <idno type="uri">https://www.geonames.org/461910/zverevo.html</idno>
+                </place>
+                <place xml:id="ed_ifh_ldl_gbb">
+                    <placeName type="reg">Wargen</placeName>
+                    <idno type="uri">http://www.geonames.org/11280470</idno>
+                </place>
+                <place xml:id="ed_hts_ttp_vcb">
+                    <placeName type="reg">Warglitten</placeName>
+                    <idno type="uri">http://www.geonames.org/756146/warlity-wielkie.html</idno>
+                </place>
+                <place xml:id="ed_hsq_xdq_tdb">
+                    <placeName type="reg">Warmbrunn</placeName>
+                    <idno type="uri"
+                        >http://www.geonames.org/3101367/cieplice-slaskie-zdroj.html</idno>
+                </place>
+                <place xml:id="ed_nnd_ztf_nbb">
+                    <placeName type="reg">Warschau</placeName>
+                    <idno type="uri">http://www.geonames.org/756135</idno>
+                </place>
+                <place xml:id="ed_w4n_gtt_sdb">
+                    <placeName type="reg">Wechselburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2813524/wechselburg.html</idno>
+                </place>
+                <place xml:id="ed_d5d_v3q_rdb">
+                    <placeName type="reg">Wehlau</placeName>
+                    <idno type="uri">http://www.geonames.org/462322/znamensk.html</idno>
+                </place>
+                <place xml:id="ed_hdc_kl3_tcb">
+                    <placeName type="reg">Weimar</placeName>
+                    <idno type="uri">http://www.geonames.org/2812482</idno>
+                </place>
+                <place xml:id="ed_uxr_qqs_d2b">
+                    <placeName type="reg">Weinsdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/3100275/dobrzyki.html</idno>
+                </place>
+                <place xml:id="ed_nlq_jsl_ddb">
+                    <placeName type="reg">Wellingsbüttel</placeName>
+                    <idno type="uri">http://www.geonames.org/2811461/wellingsbuettel.html</idno>
+                </place>
+                <place xml:id="ed_mhm_plp_tdb">
+                    <placeName type="reg">Wengrow</placeName>
+                    <idno type="uri">http://www.geonames.org/756046/wegrow.html</idno>
+                </place>
+                <place xml:id="ed_xyj_2wd_py">
+                    <placeName type="reg">Wenzken</placeName>
+                    <idno type="uri">http://www.geonames.org/755927</idno>
+                </place>
+                <place xml:id="ed_q5v_1xh_my">
+                    <placeName type="reg">Werder-Havel</placeName>
+                    <idno type="uri">http://www.geonames.org/6550645</idno>
+                </place>
+                <place xml:id="ed_mcs_swr_rdb">
+                    <placeName type="reg">Wernigerode</placeName>
+                    <idno type="uri">http://www.geonames.org/2810808/wernigerode.html</idno>
+                </place>
+                <place xml:id="ed_xfd_wgt_c2b">
+                    <placeName type="reg">Westphalen, Königreich</placeName>
+                </place>
+                <place xml:id="ed_ug2_j1q_vcb">
+                    <placeName type="reg">Westpreußen</placeName>
+                    <note>preußische Provinz beiderseits der unteren Weichsel </note>
+                </place>
+                <place xml:id="ed_c5s_sf5_g2b">
+                    <placeName type="reg">Widminnen</placeName>
+                    <idno type="uri">http://www.geonames.org/754652/wydminy.html</idno>
+                </place>
+                <place xml:id="ed_ztb_bm1_my">
+                    <placeName type="reg">Wien</placeName>
+                    <idno type="uri">http://www.geonames.org/6475297</idno>
+                </place>
+                <place xml:id="ed_zy5_jhm_gbb">
+                    <placeName type="reg">Wiesbaden</placeName>
+                    <idno type="uri">http://www.geonames.org/2809346</idno>
+                </place>
+                <place xml:id="ed_z1v_zsn_my">
+                    <placeName type="reg">Wildenhoff</placeName>
+                    <idno type="uri">http://www.geonames.org/2808939</idno>
+                </place>
+                <place xml:id="ed_z5q_df5_c2b">
+                    <placeName type="reg">Wilken</placeName>
+                    <idno type="uri">http://www.geonames.org/755681/wilki.html</idno>
+                </place>
+                <place xml:id="ed_jn5_yvd_py">
+                    <placeName type="reg">Wilkowen</placeName>
+                    <idno type="uri">http://www.geonames.org/755655</idno>
+                </place>
+                <place xml:id="ed_ol1_bsp_vcb">
+                    <placeName type="reg">Willenberg</placeName>
+                    <idno type="uri">http://www.geonames.org/755907/wielbark.html</idno>
+                </place>
+                <place xml:id="ed_nhm_5rb_tcb">
+                    <placeName type="reg">Willkühnen</placeName>
+                    <idno type="uri">http://www.geonames.org/872756</idno>
+                </place>
+                <place xml:id="ed_f11_qrq_bbb">
+                    <placeName type="reg">Wilna</placeName>
+                    <idno type="uri">http://www.geonames.org/593116</idno>
+                </place>
+                <place xml:id="ed_m2f_zhk_wcb">
+                    <placeName type="reg">Windheim</placeName>
+                    <idno type="uri">http://www.geonames.org/2808179</idno>
+                </place>
+                <place xml:id="ed_nfy_lpx_f2b">
+                    <placeName type="reg">Wirballen</placeName>
+                    <idno type="uri">http://www.geonames.org/593086/virbalis.html</idno>
+                </place>
+                <place xml:id="ed_qkk_ynh_scb">
+                    <placeName type="reg">Wittenberg</placeName>
+                    <idno type="uri">http://www.geonames.org/5279483</idno>
+                </place>
+                <place xml:id="ed_uzs_2kw_12b">
+                    <placeName type="reg">Wittenhagen</placeName>
+                    <idno type="uri">http://www.geonames.org/6548150/wittenhagen.html</idno>
+                </place>
+                <place xml:id="ed_hcn_kc2_gy">
+                    <placeName type="reg">Wittfong</placeName>
+                    <idno type="uri">http://www.geonames.org/757234</idno>
+                </place>
+                <place xml:id="ed_gk1_hmh_cy">
+                    <placeName type="reg">Wohnsdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/825895</idno>
+                </place>
+                <place xml:id="ed_fb2_5br_v2b">
+                    <placeName type="reg">Wolfshagen</placeName>
+                    <idno type="uri">http://www.geonames.org/2806607/wolfshagen.html</idno>
+                </place>
+                <place xml:id="ed_gwl_cbl_gbb">
+                    <placeName type="reg">Wolfsschanze</placeName>
+                    <idno type="uri">http://www.geonames.org/769274/ketrzyn.html</idno>
+                </place>
+                <place xml:id="ed_ost_53w_12b">
+                    <placeName type="reg">Wolkenburg</placeName>
+                    <idno type="uri">http://www.geonames.org/2806479/wolkenburg.html</idno>
+                </place>
+                <place xml:id="ed_rzw_wdr_rdb">
+                    <placeName type="reg">Wolmirstedt</placeName>
+                    <idno type="uri">http://www.geonames.org/2806342/wolmirstedt.html</idno>
+                </place>
+                <place xml:id="ed_zhv_1mg_hy">
+                    <placeName type="reg">Woltersdorf</placeName>
+                    <idno type="uri">http://www.geonames.org/6547651</idno>
+                </place>
+                <place xml:id="ed_xrn_x3h_h2b">
+                    <placeName type="reg">Woplauken</placeName>
+                    <idno type="uri">http://gov.genealogy.net/item/show/WOPKENKO04RB</idno>
+                </place>
+                <place xml:id="ed_ww2_xl3_tcb">
+                    <placeName type="reg">Wörlitz</placeName>
+                    <idno type="uri">http://www.geonames.org/6550878/woerlitz.html</idno>
+                </place>
+                <place xml:id="ed_mqk_11p_vcb">
+                    <placeName type="reg">Wormditt</placeName>
+                    <idno type="uri">http://www.geonames.org/763066/orneta.html</idno>
+                </place>
+                <place xml:id="ed_wcj_dhm_s3b">
+                    <placeName type="reg">Wundlacken</placeName>
+                    <idno type="uri">http://gov.genealogy.net/object_327920</idno>
+                </place>
+                <place xml:id="ed_rf5_52p_tdb">
+                    <placeName type="reg">Wusterwitz</placeName>
+                    <idno type="uri">http://www.geonames.org/3089731/ostrowiec.html</idno>
+                </place>
+                <place xml:id="ed_m34_ffp_tdb">
+                    <placeName type="reg">Zanow</placeName>
+                    <idno type="uri">http://www.geonames.org/3086134/sianow.html</idno>
+                </place>
+                <place xml:id="ed_wxq_lbv_22b">
+                    <placeName type="reg">Zarskoje Selo</placeName>
+                    <idno type="uri">http://www.geonames.org/504003/pushkin.html</idno>
+                </place>
+                <place xml:id="ed_zw1_hcp_tdb">
+                    <placeName type="reg">Zehdenick</placeName>
+                    <idno type="uri">http://www.geonames.org/2805075/zehdenick.html</idno>
+                </place>
+                <place xml:id="ed_nc5_wng_2z">
+                    <placeName type="reg">Zerbst</placeName>
+                    <idno type="uri">http://www.geonames.org/2804748</idno>
+                </place>
+                <place xml:id="ed_zcz_scq_tdb">
+                    <placeName type="reg">Ziebingen</placeName>
+                    <idno type="uri">http://www.geonames.org/3101255/cybinka.html</idno>
+                </place>
+                <place xml:id="ed_vq1_n22_ycb">
+                    <placeName type="reg">Zindel</placeName>
+                    <idno type="uri">http://www.geonames.org/2831948</idno>
+                </place>
+                <place xml:id="ed_cvb_l13_tdb">
+                    <placeName type="reg">Zittau</placeName>
+                    <idno type="uri">http://www.geonames.org/2804008/zittau.html</idno>
+                </place>
+                <place xml:id="ed_hcb_f22_b2b">
+                    <placeName type="reg">Zoppot</placeName>
+                    <idno type="uri">http://www.geonames.org/3085151/sopot.html</idno>
+                </place>
+                <place xml:id="ed_ykm_jw5_zdb">
+                    <placeName type="reg">Zossen</placeName>
+                    <idno type="uri">http://www.geonames.org/2803870/zossen.html</idno>
+                </place>
+                <place xml:id="ed_rxk_xws_g2b">
+                    <placeName type="reg">Zschochau</placeName>
+                    <idno type="uri">http://www.geonames.org/2803805/zschochau.html</idno>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

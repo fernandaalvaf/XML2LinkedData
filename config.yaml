@@ -1,13 +1,35 @@
-file_location: "indices.xml"
-item_types: {'all' : 'index/names#',
-          'periodical' : 'index/periodicals#',
-          'publications' : 'pub/'}
-header: {'name' : 'Digital Edition of Fernando Pessoa',
-        'target' : 'http://www.pessoadigital.pt/',
+file_location: "Data/indices.xml"
+
+register_types: {'names': {
+                    'element': 'listPerson',
+                    'attribute_type': 'type',
+                    'attribute_value': 'all',
+                    'target': 'http://www.pessoadigital.pt/index/names#'},
+                'periodicals': {
+                    'element': 'list',
+                    'attribute_type': 'type',
+                    'attribute_value': 'periodical',
+                    'target':'http://www.pessoadigital.pt/index/periodicals#'},
+                'publications': {
+                    'element': 'list',
+                    'attribute_type': 'type',
+                    'attribute_value': 'publications',
+                    'target': 'http://www.pessoadigital.pt/pub/'}
+                    }
+
+header_data: {'name' : 'Digital Edition of Fernando Pessoa',
         'contact' : 'Ulrike Henny-Krahmer <email>',
         'message' : 'Mentions in the digital edition of Fernando Pessoa',
         }
-authority_urls: {'wikidata': 'https://www.wikidata.org/wiki/',
+
+authority_files: {'wikidata': 'https://www.wikidata.org/wiki/',
                 'viaf': 'http://viaf.org/viaf/',
                 'gnd': 'http://d-nb.info/gnd/'
                 }
+
+namespaces: {"tei":"http://www.tei-c.org/ns/1.0",
+            "xml":"http://www.w3.org/XML/1998/namespace"
+            }
+
+
+

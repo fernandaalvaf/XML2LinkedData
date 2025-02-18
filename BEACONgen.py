@@ -4,59 +4,6 @@ import os
 from datetime import datetime
 
 
-def BEACON_predicates(item_key, item_data, predicates, authorities):
-    """
-    Processes a single index item and appends formatted URLs to predicates.
-    It  builds, for example for Kant: "118559796||P6"
-    
-    :param item_key: Key of the current item (e.g., 'FP')
-    :param item_data: Dictionary of authority IDs for the item (e.g., {'viaf': '29010497'})
-    :param predicates: Dictionary to store processed URLs for each authority
-    :param authorities: list of authorities
-    """
-    predicates = {}
-    
-    for authority in authorities:
-        try:                        
-            predicate = f"{item_data[authority]}||{item_key}"
-            #print(predicate)
-            if authority not in predicates:
-                predicates[authority] = []
-            predicates[authority].append(predicate)
-        except KeyError:
-            # Skip if the authority ID is missing
-            pass
-
-
-def write_BEACON_file(authority, itemtype, header_data, predicates, filename_template="output/BEACON_{itemtype}_{authority}.txt"):
-    """
-    Writes a BEACON file for a given authority.
-
-    :param authority: The key representing the authority (e.g., 'wiki', 'viaf', 'gnd')
-    :param predicates: The dictionary containing data for all authorities
-    :param filename_template: A template for the output file name (default: "BEACON_{authority}.txt")
-    """
-    filename = filename_template.format(authority=authority,itemtype=itemtype)
-    name = header_data['name']
-    try:
-        prefix = cfg['authority_urls'][authority]
-    except:
-        prefix = "url-not-given"
-        print("Warning: BEACON malformed")
-    target = header_data['target'] + cfg['item_types'][itemtype]
-    contact= header_data['contact']
-    message = header_data['message']
-    timestamp = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-
-    try:
-        with open(filename, "w+", encoding="utf-8") as f:
-            f.write(f"#FORMAT: BEACON\n#NAME: {name}\n#PREFIX: {prefix}\n#TARGET: {target}\n#CONTACT: {contact}\n#MESSAGE: {message}\n#RELATION: http://www.w3.org/2002/07/owl#sameAs\n#TIMESTAMP:{timestamp}\n\n")
-            for item in predicates[authority]:
-                f.write(f"{item}\n")
-            print(f"{filename} written successfully.")
-    except KeyError:
-        print(f"No data found for authority '{authority}'. Skipping.")
-
 # check if output folder exists and create it if it does not
 os.makedirs("output", exist_ok=True)
 os.makedirs("output/noids", exist_ok=True)
@@ -66,13 +13,9 @@ os.makedirs("output/noids", exist_ok=True)
 with open ("config.yaml", "r") as file:
     cfg = yaml.safe_load(file)
 
-# read different types of indices
-idx_list = cfg['item_types'].keys() # defined list of indices
-if type(idx_list) is str:
-    idx_list = list(idx_list)
 
 # read header data settings
-header_data = cfg['header']
+header_data = cfg['header_data']
 
 
 # define and validate config dat
@@ -81,7 +24,116 @@ if not os.path.isfile(idx_path):
     print("No .xml file located.")
     exit()
 else:
-    print(".xml file successfully located.")
+    print(f"{idx_path} file successfully located.")
+
+class LinkedPair():
+    def __init__(self, local_id, authority_id, authority_label):
+        self.local_id = local_id
+        self.authority_id = authority_id
+        self.authority_label = authority_label
+
+    def paired_entities(self):
+        
+        return f"{self.authority_id}||{self.local_id}"
+
+    def show_pair(self):
+        pair = self.paired_entities()
+        print(pair)
+
+
+class LinkedCollection():
+    
+    
+    def __init__(self, register_data, register_type, authority_data):
+        self.register_data = register_data
+        self.register_type = register_type
+        self.authority_data = authority_data
+        self.data = {}
+    
+
+    def add_linkedpair(self, local_id, authority_id, authority_type):
+        prefix = self.authority_data[f'{authority_type}']
+                
+        if authority_id.startswith(prefix):
+            authority_id =authority_id[len(prefix)::]
+            
+        new_pair = LinkedPair(local_id, authority_id,authority_type)
+        if authority_type not in self.data:
+            self.data[authority_type] = []  
+        self.data[authority_type].append(new_pair)  
+
+
+    def show_pairs(self):
+        for key, value in self.data.items():  
+            for pair in value: 
+                print(f"  {pair.paired_entities()}")
+
+
+    def show_authority_types(self):
+        all_auths = list(self.data.keys())
+        print(all_auths)
+
+    def write_BEACON(self):
+            for key, value in self.data.items():  
+                authority_label = key
+                filename= f"output/BEACON_{self.register_type}_{authority_label}.txt"
+                name = header_data['name']
+                target = self.register_data['target']
+                prefix = self.authority_data[f'{key}']
+                contact= header_data['contact']
+                message = header_data['message']
+                timestamp = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+
+                with open(filename, "w+", encoding="utf-8") as f:
+                    f.write(f"#FORMAT: BEACON\n#NAME: {name}\n#PREFIX: {prefix}\n#TARGET: {target}\n#CONTACT: {contact}\n#MESSAGE: {message}\n#RELATION: http://www.w3.org/2002/07/owl#sameAs\n#TIMESTAMP:{timestamp}\n\n")
+                    for pair in value:
+                        f.write(f"{pair.paired_entities()}\n")
+                    print(f"{filename} written successfully.")
+
+
+def save_log(register_type,missing_authority):
+    """ Creates a log of all items with no authority file associated to them.
+    :param register_type: type of register being processed, ex. Names.
+    :param missing_authority: list of entities with missing authority files.
+    """
+
+    with open(f"output/noids/{register_type}_noids.txt","w+", encoding="utf-8") as f:
+        f.write("items with no associated authority file:\n")
+        if missing_authority:
+            for item in missing_authority:
+                f.write("%s,\n" %item)
+        else:
+            f.write("None")
+        print("list of misisng authority files written successfully.")
+
+
+def iter_items(tei_list):
+    """ Iterates over all entities in a given tei:list
+
+    :param tei_list: tei list element that contains all entities of a register
+    :param missing_authority: list of entities with missing authority files.
+    """
+
+    for child in tei_list:
+        project_id = child.attrib[f"{{{ns['xml']}}}id"]
+        
+        
+        authority_ids = child.findall("tei:idno", ns)
+        if not authority_ids:
+            authority_id = None
+            missing_authority.append(project_id)
+            
+        else:
+            for authority_id in authority_ids:
+                if multiple_auth_types is True:
+                    authority_type = authority_id.attrib["type"]
+                else:
+                    authority_type = next(iter(authority_data))
+
+                if authority_type not in list(authority_data.keys()):
+                    print(f'Some authority types might be wrong: check "{project_id}": "{authority_type}"')
+                else:
+                    collection.add_linkedpair(project_id,authority_id.text,authority_type)
 
 
 # parse the .xml file
@@ -90,93 +142,39 @@ tree = ET.parse(idx_path)
 root = tree.getroot()
 
 # define namespaces
-ns = {"tei":"http://www.tei-c.org/ns/1.0",
-      "xml":"http://www.w3.org/XML/1998/namespace"}
+ns = cfg['namespaces']
 
-# create container to define authority file types
-auth_types = []
+authority_data = cfg['authority_files']
 
-# locate indices in the tree
-div = root.findall(".//*[@xml:id='Indices']", ns)[0]
+if len(authority_data) > 1:
+    multiple_auth_types = True
+else:
+    multiple_auth_types = False
 
-# Iterating through indices
 
-for itemtype in idx_list:
+for register_type in cfg['register_types']:
     
-    # Locate all parent elements (e.g., <list>, <listPerson>, etc.) that match the type
-    matching_elements = div.findall(f".//*[@type='{itemtype}']", ns)
+    
+    register = cfg['register_types'][register_type]
+    missing_authority = []
 
-    if not matching_elements:
-        print(f"No elements found for type '{itemtype}'.")
-        continue
+    print(f'extracting info about "{register_type}"')
+    collection = LinkedCollection(register, register_type, authority_data)
+
+    if register['attribute_type'] == 'None':
+
+        tei_list = root.find(f".//tei:{register['element']}", ns)
+        iter_items(tei_list,missing_authority)
+            
+            
     else:
-        # Access the first (and only) parent element from the list
-        matching_elements = matching_elements[0]
+        tei_list = root.find(f".//tei:{register['element']}[@{register['attribute_type']}='{register['attribute_value']}']", ns)
+        iter_items(tei_list)
 
-    indexitems = {}
-    noids = []
+    # collection.show_pairs()
+    collection.write_BEACON()
+    save_log(register_type,missing_authority)
+    
 
-    # Iterate over the children of the parent element
-    for item in matching_elements:
-
-        # Use the namespace dictionary to access the xml:id attribute, this is the project internal id of this item
-        item_id = item.attrib.get(f"{{{ns['xml']}}}id")
-        #print(f"item...\nitem id: {item_id}")
-
-        # find all <idno> children element given in this item
-        ids = item.findall("tei:idno",ns)
-        #print(ids)
-
-
-        """
-        The following empty dictionary will be used to collect all the relevant data we extracted.
-        For example, for Kant:
-        indexitems = {(...)
-                        'P6':{'wikidata':'Q9312',
-                             'gnd':'118559796',
-                             'viaf':'82088490'
-                            }
-                    (...)}
-        """
-        indexitems[item_id] = {}
-
-        if len(ids) == 0:
-            # if there is none, we do not need to store this item
-            #print("no ids available")
-            noids.append(item_id)
-        else:
-            # iterate through all given idno's
-            for id in ids:
-                # identify the source (e.g. wikidata, gnd) and id
-                authority_source = id.attrib.get("type") # source
-                authority_id = id.text # id
-
-                # add to list of authority files if not already stored
-                if authority_source not in auth_types:
-                    auth_types.append(authority_source)
-                
-                # store in the dictionary along with the id itself
-                if authority_source and authority_id:  # Ensure both source and ID are not None
-                    indexitems[item_id][authority_source] = authority_id
-
-    # Create a log of all items with no authority file associated to them
-    with open(f"output/noids/{itemtype}_noids.txt","w+", encoding="utf-8") as f:
-        f.write("items with no associated authority file:\n")
-        if noids:
-            for item in noids:
-                f.write("%s,\n" %item)
-        else:
-            f.write("None")
-        print("list of misisng authority files written successfully.")
-
-    # Now we generate a BEACON file for each of the authority file types and each of the indices
-    predicates = {}
-
-    # Process all index items
-    for item_key, item_data in indexitems.items():
-        #print(item_key, item_data)
-        BEACON_predicates(item_key, item_data, predicates, auth_types)
-
-    # write BEACON
-    for authority in auth_types:
-        write_BEACON_file(authority, itemtype, header_data, predicates)
+            
+            
