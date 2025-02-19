@@ -10,7 +10,7 @@ with open ("config.yaml", "r") as file:
     cfg = yaml.safe_load(file)
 
 # read header data settings
-header_data = cfg['header']
+header_data = cfg['header_data']
 
 # define and validate config dat
 idx_path = cfg['file_location'] # path of the xml file
@@ -20,7 +20,7 @@ if not os.path.isfile(idx_path):
 else:
     print(".xml file successfully located.")
 
-idx_lists = cfg['item_types'].keys() # defined list of indices
+idx_lists = cfg['register_types'].keys() # defined list of indices
 if type(idx_lists) is str:
     idx_lists = list(idx_lists)
 
